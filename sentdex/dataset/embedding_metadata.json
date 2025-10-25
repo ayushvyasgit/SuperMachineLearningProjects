@@ -1,0 +1,9 @@
+{
+  "model_name": "all-MiniLM-L6-v2",
+  "embedding_dimension": 384,
+  "total_records": 20480,
+  "uploaded_records": 20480,
+  "database": "livestock_ai_db",
+  "collection": "medicine_records",
+  "sample_text": "Medicine: acetocillin (analgesic, tablet, Manufacturer: novartis ag). Animal: cat (persian, Age: 8, Gender: male, Weight: 4.6). Symptoms: appetite loss, vomiting, eye discharge, lethargy. Disease: conjunctivitis. Temperature: 39.0\u00b0C, Heart Rate: 140."
+}

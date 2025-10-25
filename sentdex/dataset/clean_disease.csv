@@ -1,0 +1,422 @@
+Animal_Type,Breed,Age,Gender,Weight,Symptom_1,Symptom_2,Symptom_3,Symptom_4,Duration,Appetite_Loss,Vomiting,Diarrhea,Coughing,Labored_Breathing,Lameness,Skin_Lesions,Nasal_Discharge,Eye_Discharge,Body_Temperature,Heart_Rate,Disease_Prediction
+dog,labrador,4,male,25.0,fever,lethargy,appetite loss,vomiting,3 days,Yes,Yes,No,No,No,No,No,No,No,39.5,120,parvovirus
+cat,siamese,2,female,4.5,coughing,sneezing,eye discharge,nasal discharge,1 week,No,No,No,Yes,No,No,No,Yes,Yes,38.9,150,upper respiratory infection
+cow,holstein,3,female,600.0,fever,nasal discharge,labored breathing,coughing,5 days,Yes,No,No,Yes,Yes,No,No,Yes,No,40.1,90,foot and mouth disease
+dog,beagle,1,male,10.0,diarrhea,vomiting,lethargy,appetite loss,2 days,Yes,Yes,Yes,No,No,No,No,No,No,39.2,130,gastroenteritis
+cat,persian,5,male,3.8,lethargy,appetite loss,skin lesions,,2 weeks,Yes,No,No,No,No,No,Yes,No,No,38.7,160,fungal infection
+horse,thoroughbred,6,female,500.0,coughing,labored breathing,nasal discharge,fever,10 days,Yes,No,No,Yes,Yes,No,No,Yes,No,39.8,85,equine influenza
+dog,german shepherd,3,female,30.0,lameness,fever,skin lesions,lethargy,7 days,Yes,No,No,No,No,Yes,Yes,No,No,39.3,110,lyme disease
+cat,maine coon,2,male,6.0,vomiting,appetite loss,lethargy,diarrhea,4 days,Yes,Yes,Yes,No,No,No,No,No,No,39.1,140,intestinal parasites
+dog,bulldog,5,male,23.0,labored breathing,coughing,nasal discharge,appetite loss,6 days,Yes,No,No,Yes,Yes,No,No,Yes,No,40.0,115,canine distemper
+cow,jersey,4,female,580.0,lethargy,decreased milk yield,fever,,8 days,Yes,No,No,No,No,No,No,No,No,39.6,70,mastitis
+cat,siamese,3,female,5.0,lethargy,eye discharge,vomiting,fever,5 days,Yes,Yes,No,No,No,No,Yes,No,No,39.0,130,panleukopenia
+dog,poodle,2,female,12.0,lethargy,appetite loss,coughing,vomiting,4 days,Yes,Yes,No,Yes,No,No,No,No,No,39.4,115,kennel cough
+cat,bengal,1,male,4.2,vomiting,diarrhea,lethargy,appetite loss,3 days,Yes,Yes,Yes,No,No,No,No,No,No,38.8,140,panleukopenia
+horse,arabian,8,female,490.0,lameness,fever,coughing,nasal discharge,1 week,Yes,No,No,Yes,No,Yes,No,Yes,No,39.9,75,strangles
+cow,hereford,5,male,650.0,fever,lethargy,decreased milk yield,appetite loss,5 days,Yes,No,No,No,No,No,No,No,No,39.7,80,bovine respiratory disease
+dog,chihuahua,4,female,3.5,lethargy,vomiting,diarrhea,coughing,2 days,Yes,Yes,Yes,Yes,No,No,No,No,No,39.1,130,canine parvovirus
+cat,ragdoll,3,male,5.0,skin lesions,appetite loss,lethargy,vomiting,10 days,Yes,Yes,No,No,No,No,Yes,No,No,38.6,155,ringworm
+dog,siberian husky,6,male,28.0,lameness,fever,skin lesions,lethargy,8 days,Yes,No,No,No,No,Yes,Yes,No,No,39.3,120,tick-borne disease
+horse,clydesdale,10,male,700.0,coughing,nasal discharge,labored breathing,fever,2 weeks,Yes,No,No,Yes,Yes,No,No,Yes,No,40.2,85,equine influenza
+cat,british shorthair,5,female,4.8,lethargy,eye discharge,appetite loss,nasal discharge,1 week,No,No,No,Yes,Yes,No,No,Yes,Yes,39.0,150,upper respiratory infection
+cow,angus,3,female,590.0,decreased milk yield,fever,appetite loss,lethargy,7 days,Yes,No,No,No,No,No,No,No,No,39.5,70,mastitis
+horse,arabian,7,male,450.0,lethargy,appetite loss,fever,labored breathing,5 days,Yes,No,No,Yes,Yes,No,No,No,No,39.7,90,equine influenza
+dog,poodle,2,female,8.0,coughing,nasal discharge,appetite loss,lethargy,4 days,Yes,No,No,Yes,No,No,No,Yes,No,39.1,125,kennel cough
+cat,bengal,3,male,5.5,lethargy,vomiting,diarrhea,dehydration,3 days,Yes,Yes,Yes,No,No,No,No,No,No,39.3,140,panleukopenia
+cow,angus,5,female,700.0,fever,decreased milk yield,lethargy,nasal discharge,7 days,Yes,No,No,Yes,Yes,No,No,Yes,No,39.8,80,bovine respiratory disease
+dog,golden retriever,4,male,30.0,lameness,swelling,appetite loss,fever,10 days,Yes,No,No,No,No,Yes,No,No,No,39.5,110,arthritis
+cat,russian blue,2,female,4.5,coughing,nasal discharge,eye discharge,sneezing,5 days,No,No,No,Yes,No,No,No,Yes,Yes,38.8,150,feline herpesvirus
+horse,quarter horse,9,female,480.0,coughing,nasal discharge,fever,labored breathing,6 days,Yes,No,No,Yes,Yes,No,No,No,No,39.9,85,equine rhinopneumonitis
+dog,chihuahua,1,male,3.0,vomiting,diarrhea,lethargy,fever,3 days,Yes,Yes,Yes,No,No,No,No,No,No,39.4,135,parvovirus
+cat,ragdoll,6,male,6.0,appetite loss,weight loss,vomiting,lethargy,2 weeks,Yes,Yes,No,No,No,No,Yes,No,No,39.0,160,feline leukemia
+cow,hereford,3,female,650.0,lethargy,fever,decreased milk yield,nasal discharge,8 days,Yes,No,No,Yes,No,No,No,No,No,39.6,75,mastitis
+dog,german shepherd,5,male,30.0,lethargy,labored breathing,coughing,appetite loss,6 days,Yes,No,No,Yes,Yes,No,No,No,No,39.6,125,heartworm disease
+cat,maine coon,6,female,7.5,appetite loss,vomiting,diarrhea,skin lesions,4 days,Yes,Yes,Yes,No,No,Yes,No,No,No,38.9,145,feline infectious peritonitis
+horse,thoroughbred,9,male,500.0,nasal discharge,coughing,labored breathing,lethargy,10 days,No,No,No,Yes,Yes,No,No,Yes,No,40.0,78,equine viral arteritis
+cow,holstein,4,female,580.0,appetite loss,diarrhea,lethargy,decreased milk yield,7 days,Yes,No,Yes,No,No,No,No,No,No,39.4,82,johne's disease
+dog,beagle,2,female,9.0,fever,vomiting,lethargy,skin lesions,3 days,Yes,Yes,No,No,No,Yes,Yes,No,No,39.2,132,canine distemper
+cat,persian,8,male,4.6,appetite loss,vomiting,eye discharge,lethargy,2 days,No,Yes,No,No,No,No,Yes,No,Yes,39.0,140,conjunctivitis
+horse,appaloosa,6,female,520.0,lameness,fever,skin lesions,appetite loss,5 days,No,No,No,No,No,Yes,Yes,No,No,39.8,76,equine piroplasmosis
+cow,jersey,3,male,620.0,diarrhea,lethargy,appetite loss,decreased milk yield,8 days,Yes,No,Yes,No,No,No,No,No,No,39.7,79,salmonellosis
+dog,dachshund,7,male,5.5,coughing,labored breathing,lethargy,appetite loss,2 weeks,Yes,No,No,Yes,Yes,No,No,No,No,39.5,120,chronic bronchitis
+cat,sphynx,4,female,3.2,eye discharge,nasal discharge,appetite loss,lethargy,1 week,No,No,No,Yes,Yes,No,No,Yes,Yes,39.3,150,feline upper respiratory infection
+dog,golden retriever,4,female,28.0,lethargy,vomiting,diarrhea,loss of appetite,5 days,Yes,No,Yes,Yes,No,Yes,No,No,No,39.2,130,parvovirus
+cat,british shorthair,3,male,5.5,appetite loss,coughing,nasal discharge,eye discharge,4 days,Yes,No,No,Yes,Yes,No,No,No,Yes,38.7,145,feline upper respiratory infection
+horse,arabian,10,female,450.0,lameness,fever,swollen joints,lethargy,8 days,No,No,No,Yes,Yes,No,No,No,No,39.4,75,equine arthritis
+cow,angus,6,male,600.0,coughing,nasal discharge,labored breathing,fever,7 days,No,No,No,Yes,Yes,No,No,No,No,39.9,82,bovine respiratory disease
+dog,bulldog,5,male,22.0,vomiting,appetite loss,fever,diarrhea,3 days,Yes,Yes,No,No,Yes,Yes,No,No,No,39.6,138,gastroenteritis
+cat,siamese,2,female,4.0,sneezing,eye discharge,appetite loss,lethargy,2 days,Yes,No,Yes,No,Yes,No,No,No,Yes,39.0,135,feline herpesvirus
+horse,quarter horse,12,male,500.0,lameness,fever,swollen joints,reduced appetite,5 days,No,No,No,Yes,No,Yes,No,No,No,39.7,78,equine infectious anemia
+cow,hereford,3,female,570.0,lethargy,diarrhea,appetite loss,dehydration,6 days,Yes,No,No,No,No,Yes,No,No,No,39.1,80,bovine viral diarrhea
+dog,poodle,8,male,15.0,coughing,labored breathing,lethargy,appetite loss,1 week,Yes,No,Yes,No,Yes,No,No,No,Yes,39.3,126,kennel cough
+cat,abyssinian,5,female,4.5,vomiting,diarrhea,loss of appetite,dehydration,3 days,No,Yes,No,Yes,No,Yes,No,Yes,No,38.5,142,pancreatitis
+horse,clydesdale,15,male,600.0,appetite loss,lethargy,labored breathing,coughing,10 days,No,No,Yes,Yes,No,No,Yes,Yes,No,39.8,70,equine pneumonia
+cow,brahman,7,female,620.0,fever,coughing,lethargy,decreased milk yield,5 days,Yes,No,Yes,Yes,No,Yes,No,No,No,39.6,81,mastitis
+dog,husky,9,male,25.0,lethargy,vomiting,diarrhea,loss of appetite,4 days,Yes,Yes,No,Yes,Yes,No,No,No,No,39.1,124,canine parvovirus
+cat,ragdoll,4,female,5.0,eye discharge,nasal discharge,coughing,lethargy,6 days,Yes,No,No,Yes,No,Yes,Yes,No,No,38.6,148,feline calicivirus
+horse,morgan,11,female,520.0,lameness,swollen joints,reduced appetite,weight loss,7 days,No,No,Yes,Yes,No,Yes,No,Yes,No,39.7,77,laminitis
+cow,limousin,2,male,550.0,diarrhea,lethargy,appetite loss,dehydration,4 days,Yes,No,No,Yes,Yes,No,Yes,No,No,39.5,85,cryptosporidiosis
+dog,border collie,3,female,17.0,coughing,labored breathing,fever,nasal discharge,8 days,Yes,No,No,Yes,No,Yes,No,Yes,Yes,39.4,129,bordetella infection
+cat,devon rex,6,male,4.2,vomiting,appetite loss,lethargy,weight loss,9 days,Yes,No,Yes,No,Yes,No,Yes,No,No,38.9,146,inflammatory bowel disease
+horse,standardbred,7,male,540.0,lameness,swollen joints,lethargy,weight loss,6 days,No,No,No,Yes,No,Yes,Yes,No,No,39.6,76,degenerative joint disease
+cow,red angus,5,female,620.0,fever,diarrhea,lethargy,appetite loss,4 days,Yes,No,Yes,No,Yes,No,Yes,Yes,No,39.8,83,bovine leukemia virus
+dog,chihuahua,3,male,2.5,sneezing,eye discharge,labored breathing,lethargy,5 days,Yes,No,No,Yes,No,No,Yes,No,Yes,39.5,131,allergic rhinitis
+cat,sphynx,5,female,3.0,vomiting,appetite loss,diarrhea,weight loss,6 days,Yes,Yes,No,No,Yes,No,Yes,No,No,38.7,143,gastroenteritis
+horse,shire,10,female,680.0,lethargy,fever,appetite loss,weight loss,10 days,No,No,Yes,Yes,No,Yes,No,No,No,39.9,74,equine leptospirosis
+cow,guernsey,4,male,590.0,appetite loss,lethargy,diarrhea,dehydration,5 days,Yes,No,No,Yes,No,No,Yes,No,No,39.3,84,bovine coccidiosis
+dog,dachshund,7,female,8.0,vomiting,diarrhea,weight loss,appetite loss,3 days,Yes,Yes,No,Yes,Yes,No,No,Yes,Yes,39.2,120,gastroenteritis
+cat,maine coon,9,male,6.5,lethargy,appetite loss,weight loss,dehydration,8 days,Yes,Yes,Yes,No,No,No,Yes,Yes,No,39.0,140,feline renal disease
+horse,thoroughbred,14,male,520.0,coughing,labored breathing,fever,weight loss,12 days,No,Yes,Yes,No,Yes,No,No,Yes,No,39.7,72,equine influenza
+cow,jersey,6,female,600.0,fever,nasal discharge,decreased milk yield,lethargy,5 days,Yes,No,No,Yes,No,Yes,No,No,No,39.4,86,bovine respiratory syncytial virus
+dog,labrador retriever,11,male,35.0,lethargy,loss of appetite,fever,vomiting,7 days,Yes,No,No,Yes,No,Yes,No,Yes,No,39.3,118,canine distemper
+cat,persian,8,female,5.0,coughing,nasal discharge,eye discharge,loss of appetite,4 days,Yes,No,Yes,No,Yes,No,Yes,No,No,38.9,147,feline viral rhinotracheitis
+dog,german shepherd,6,female,30.0,coughing,labored breathing,lethargy,loss of appetite,6 days,Yes,No,Yes,No,Yes,No,No,No,Yes,39.4,125,kennel cough
+cat,scottish fold,4,male,4.8,sneezing,eye discharge,appetite loss,lethargy,5 days,Yes,No,No,Yes,Yes,No,Yes,No,Yes,38.7,137,feline herpesvirus
+horse,appaloosa,10,female,510.0,lameness,fever,swollen joints,reduced appetite,9 days,No,No,Yes,Yes,No,Yes,No,No,No,39.8,74,equine laminitis
+cow,holstein,7,male,590.0,coughing,nasal discharge,labored breathing,lethargy,4 days,No,No,No,Yes,Yes,No,Yes,No,No,39.9,80,bovine pneumonia
+dog,beagle,5,male,10.0,vomiting,diarrhea,loss of appetite,fever,3 days,Yes,Yes,No,No,No,Yes,No,Yes,No,39.2,132,gastroenteritis
+cat,bengal,3,female,4.2,lethargy,vomiting,diarrhea,dehydration,6 days,Yes,No,Yes,Yes,No,Yes,No,No,No,39.1,145,feline panleukopenia
+horse,arabian,13,male,490.0,fever,nasal discharge,labored breathing,lethargy,8 days,No,No,No,Yes,Yes,No,No,Yes,No,39.6,78,equine influenza
+cow,simmental,8,female,630.0,loss of appetite,weight loss,lethargy,reduced milk production,7 days,No,Yes,No,No,Yes,Yes,Yes,No,No,39.5,83,johne's disease
+dog,rottweiler,7,female,35.0,vomiting,diarrhea,loss of appetite,dehydration,3 days,Yes,No,Yes,No,Yes,No,No,No,Yes,39.0,127,parvovirus
+cat,siberian,2,male,5.5,coughing,sneezing,nasal discharge,eye discharge,4 days,Yes,No,Yes,No,No,Yes,No,Yes,No,38.6,144,feline calicivirus
+horse,american quarter,14,female,520.0,swollen joints,lameness,fever,loss of appetite,10 days,No,No,Yes,Yes,Yes,No,No,No,No,39.7,75,equine arthritis
+cow,shorthorn,5,male,600.0,diarrhea,dehydration,lethargy,loss of appetite,5 days,Yes,No,No,Yes,No,Yes,No,No,Yes,39.4,84,salmonellosis
+dog,shih tzu,4,female,7.0,coughing,labored breathing,appetite loss,lethargy,6 days,Yes,No,Yes,No,Yes,Yes,No,No,No,39.3,133,canine flu
+cat,american curl,5,male,3.7,vomiting,diarrhea,dehydration,weight loss,3 days,Yes,Yes,No,No,Yes,Yes,No,No,No,38.8,148,pancreatitis
+horse,percheron,12,male,600.0,swollen joints,lameness,appetite loss,weight loss,5 days,No,No,No,Yes,Yes,No,No,Yes,No,39.9,72,equine infectious anemia
+cow,brahman,3,female,570.0,fever,nasal discharge,lethargy,coughing,4 days,Yes,No,No,Yes,No,Yes,No,No,Yes,39.8,86,respiratory syncytial virus
+dog,chihuahua,9,male,2.0,vomiting,loss of appetite,diarrhea,lethargy,2 days,Yes,Yes,No,No,No,Yes,No,No,Yes,39.1,128,gastroenteritis
+cat,manx,4,female,3.3,eye discharge,nasal discharge,sneezing,coughing,6 days,Yes,No,No,Yes,No,Yes,Yes,No,No,38.5,138,feline herpesvirus
+horse,tennessee walker,16,female,530.0,weight loss,loss of appetite,lethargy,fever,8 days,No,No,Yes,Yes,No,Yes,Yes,No,No,39.6,71,equine cushing's disease
+cow,jersey,6,male,620.0,weight loss,reduced milk production,lethargy,appetite loss,7 days,Yes,No,Yes,No,Yes,Yes,No,No,No,39.4,87,tuberculosis
+dog,dalmatian,8,female,20.0,vomiting,diarrhea,weight loss,dehydration,4 days,Yes,No,Yes,No,Yes,No,No,Yes,No,39.0,120,pancreatitis
+cat,bombay,6,male,4.0,lethargy,vomiting,loss of appetite,weight loss,5 days,Yes,No,No,Yes,Yes,No,Yes,No,No,38.9,149,hyperthyroidism
+horse,welsh pony,10,male,450.0,lameness,swollen joints,reduced appetite,weight loss,9 days,No,No,Yes,Yes,Yes,No,No,Yes,No,39.8,76,equine arthritis
+cow,brown swiss,3,female,580.0,diarrhea,dehydration,loss of appetite,lethargy,5 days,Yes,Yes,No,No,No,Yes,No,No,Yes,39.3,85,coccidiosis
+dog,akita,6,male,35.0,lethargy,loss of appetite,fever,vomiting,6 days,Yes,No,Yes,No,Yes,Yes,No,No,Yes,39.5,130,canine hepatitis
+cat,british shorthair,7,female,4.4,nasal discharge,eye discharge,sneezing,lethargy,4 days,Yes,No,No,Yes,No,Yes,Yes,No,No,38.6,142,upper respiratory infection
+horse,morgan,11,female,530.0,weight loss,swollen joints,reduced appetite,fever,8 days,No,Yes,Yes,No,Yes,No,No,Yes,No,39.7,74,equine encephalitis
+cow,guernsey,5,male,610.0,nasal discharge,coughing,labored breathing,fever,3 days,Yes,No,Yes,No,No,Yes,No,No,Yes,39.9,82,bovine influenza
+dog,boxer,8,female,27.0,vomiting,lethargy,diarrhea,loss of appetite,4 days,Yes,Yes,No,No,Yes,No,No,Yes,No,39.2,131,gastroenteritis
+cat,abyssinian,4,male,4.5,eye discharge,lethargy,nasal discharge,sneezing,5 days,Yes,No,No,Yes,Yes,No,No,Yes,No,38.8,140,feline calicivirus
+dog,golden retriever,5,male,32.0,vomiting,diarrhea,loss of appetite,lethargy,3 days,Yes,No,Yes,No,Yes,No,No,No,Yes,39.2,130,gastroenteritis
+cat,persian,7,female,4.1,sneezing,nasal discharge,eye discharge,lethargy,4 days,Yes,No,No,Yes,Yes,No,Yes,No,Yes,38.9,142,feline upper respiratory infection
+horse,thoroughbred,15,male,480.0,lameness,swollen joints,appetite loss,fever,7 days,No,Yes,No,No,Yes,Yes,No,Yes,No,39.7,75,equine arthritis
+cow,limousin,6,female,620.0,weight loss,reduced milk production,appetite loss,lethargy,10 days,Yes,Yes,No,Yes,No,Yes,No,No,Yes,39.4,85,johne's disease
+rabbit,holland lop,3,female,1.8,sneezing,nasal discharge,loss of appetite,lethargy,5 days,No,Yes,No,Yes,Yes,No,No,Yes,No,38.6,160,snuffles
+sheep,merino,4,male,75.0,coughing,labored breathing,nasal discharge,fever,4 days,Yes,No,No,Yes,No,Yes,Yes,No,No,40.0,78,pneumonia
+goat,boer,5,female,68.0,diarrhea,dehydration,lethargy,loss of appetite,6 days,Yes,No,Yes,No,No,Yes,No,No,Yes,39.3,82,coccidiosis
+pig,yorkshire,2,male,110.0,vomiting,diarrhea,loss of appetite,fever,3 days,No,Yes,No,Yes,Yes,No,No,Yes,Yes,39.5,85,porcine epidemic diarrhea
+dog,dachshund,4,female,9.0,lethargy,vomiting,loss of appetite,dehydration,3 days,Yes,No,Yes,No,Yes,Yes,No,No,No,39.0,132,parvovirus
+cat,siamese,6,male,4.2,coughing,sneezing,eye discharge,lethargy,4 days,Yes,No,No,Yes,No,Yes,Yes,No,Yes,38.7,140,feline calicivirus
+horse,clydesdale,12,female,600.0,fever,swollen joints,appetite loss,lameness,6 days,No,No,Yes,No,Yes,Yes,No,Yes,No,39.6,77,equine laminitis
+cow,angus,8,male,580.0,coughing,labored breathing,lethargy,nasal discharge,5 days,Yes,No,No,Yes,No,Yes,No,No,Yes,40.0,83,bovine respiratory disease
+rabbit,mini rex,2,male,1.6,diarrhea,loss of appetite,dehydration,weight loss,3 days,No,Yes,No,Yes,No,Yes,No,No,Yes,38.5,155,enteritis
+sheep,suffolk,3,female,80.0,weight loss,lethargy,loss of appetite,reduced wool growth,8 days,Yes,No,Yes,No,No,Yes,No,Yes,No,39.8,77,scrapie
+goat,alpine,4,male,72.0,fever,lethargy,weight loss,loss of appetite,7 days,No,Yes,No,No,Yes,Yes,No,No,Yes,39.7,83,caprine arthritis encephalitis
+pig,duroc,3,female,115.0,sneezing,coughing,nasal discharge,labored breathing,5 days,Yes,No,Yes,No,No,Yes,Yes,No,No,40.0,80,swine influenza
+dog,corgi,5,male,11.0,vomiting,diarrhea,lethargy,weight loss,3 days,Yes,No,Yes,No,No,Yes,No,Yes,No,39.2,134,pancreatitis
+cat,burmese,8,female,4.5,eye discharge,nasal discharge,sneezing,lethargy,6 days,Yes,No,Yes,Yes,No,Yes,No,No,Yes,38.6,139,feline viral rhinotracheitis
+horse,paint,14,male,500.0,lameness,weight loss,reduced appetite,swollen joints,10 days,No,Yes,No,Yes,Yes,No,No,Yes,No,39.5,76,equine osteoarthritis
+cow,hereford,7,female,590.0,diarrhea,dehydration,lethargy,appetite loss,6 days,Yes,Yes,No,No,Yes,No,No,Yes,No,39.3,84,bovine johne's disease
+rabbit,flemish giant,5,female,6.8,lethargy,appetite loss,weight loss,diarrhea,5 days,Yes,No,Yes,No,Yes,Yes,No,No,Yes,39.0,150,gastrointestinal stasis
+sheep,dorper,6,male,65.0,coughing,labored breathing,nasal discharge,appetite loss,4 days,No,No,Yes,Yes,No,Yes,Yes,No,Yes,39.9,80,pasteurellosis
+goat,nubian,3,female,70.0,diarrhea,dehydration,lethargy,appetite loss,5 days,Yes,Yes,No,No,No,Yes,No,Yes,Yes,39.4,81,giardiasis
+dog,poodle,7,female,15.0,lethargy,vomiting,loss of appetite,diarrhea,4 days,Yes,No,Yes,No,No,Yes,No,Yes,No,39.1,125,canine parvovirus
+cat,maine coon,5,male,5.2,nasal discharge,eye discharge,sneezing,lethargy,3 days,Yes,Yes,No,Yes,No,No,No,Yes,No,38.8,140,feline respiratory disease complex
+horse,arabian,9,female,460.0,lameness,swollen joints,loss of appetite,reduced mobility,6 days,No,Yes,No,No,Yes,Yes,No,Yes,Yes,39.6,78,equine lyme disease
+cow,jersey,6,male,570.0,coughing,nasal discharge,labored breathing,fever,5 days,Yes,No,Yes,No,Yes,No,No,Yes,Yes,39.4,81,bovine tuberculosis
+rabbit,english angora,4,female,2.1,sneezing,nasal discharge,weight loss,lethargy,3 days,Yes,No,No,Yes,Yes,No,Yes,No,Yes,38.6,150,rabbit viral hemorrhagic disease
+sheep,cheviot,5,male,85.0,weight loss,reduced wool production,lethargy,loss of appetite,7 days,Yes,Yes,No,No,Yes,No,No,No,Yes,39.2,79,foot-and-mouth disease
+goat,toggenburg,7,female,65.0,diarrhea,dehydration,lethargy,appetite loss,5 days,Yes,Yes,No,Yes,No,Yes,No,Yes,No,39.3,80,coccidiosis
+pig,berkshire,2,male,115.0,coughing,nasal discharge,lethargy,fever,4 days,Yes,No,No,Yes,Yes,No,Yes,No,Yes,39.8,85,actinobacillus pleuropneumonia
+dog,shih tzu,8,female,8.0,lethargy,vomiting,diarrhea,loss of appetite,5 days,Yes,No,Yes,Yes,No,No,No,No,Yes,39.0,130,canine hepatitis
+cat,scottish fold,4,male,4.3,nasal discharge,eye discharge,sneezing,lethargy,3 days,Yes,No,Yes,No,No,Yes,No,Yes,Yes,38.7,143,feline rhinotracheitis
+horse,belgian,13,female,650.0,lameness,swollen joints,fever,weight loss,8 days,No,Yes,No,Yes,Yes,No,No,No,Yes,39.5,74,equine infectious anemia
+cow,brown swiss,9,male,600.0,labored breathing,nasal discharge,coughing,fever,6 days,Yes,No,Yes,Yes,No,Yes,No,No,Yes,39.6,80,bovine respiratory disease
+rabbit,himalayan,3,male,1.9,sneezing,eye discharge,nasal discharge,lethargy,2 days,No,Yes,No,Yes,Yes,Yes,Yes,Yes,No,38.4,160,respiratory infection
+sheep,romney,6,female,78.0,weight loss,lethargy,loss of appetite,swollen joints,9 days,Yes,Yes,No,Yes,No,No,Yes,Yes,No,39.7,76,scrapie
+goat,kiko,3,male,75.0,nasal discharge,fever,weight loss,loss of appetite,6 days,No,Yes,Yes,No,Yes,Yes,No,Yes,Yes,39.2,82,caprine respiratory disease
+pig,tamworth,4,female,120.0,vomiting,diarrhea,appetite loss,fever,5 days,Yes,Yes,No,Yes,Yes,No,Yes,No,No,39.6,84,swine dysentery
+dog,beagle,6,male,13.0,coughing,labored breathing,nasal discharge,fever,4 days,Yes,No,No,Yes,Yes,Yes,No,Yes,No,39.4,127,kennel cough
+cat,russian blue,5,female,4.7,eye discharge,nasal discharge,sneezing,lethargy,5 days,Yes,Yes,No,No,No,Yes,No,Yes,Yes,38.6,145,feline respiratory infection
+horse,shetland pony,11,male,300.0,lameness,swollen joints,appetite loss,weight loss,7 days,Yes,Yes,No,Yes,No,Yes,No,Yes,No,39.6,80,equine osteoarthritis
+cow,holstein,7,female,650.0,coughing,nasal discharge,appetite loss,fever,5 days,Yes,No,No,Yes,Yes,No,No,Yes,No,39.4,79,bovine tuberculosis
+rabbit,dutch,2,female,1.4,sneezing,nasal discharge,lethargy,loss of appetite,3 days,Yes,No,Yes,Yes,No,Yes,No,No,Yes,38.8,155,upper respiratory infection
+sheep,lincoln,8,male,95.0,lethargy,swollen joints,fever,loss of appetite,6 days,No,Yes,No,Yes,Yes,No,Yes,No,Yes,39.9,75,footrot
+goat,lamancha,5,female,72.0,diarrhea,loss of appetite,lethargy,dehydration,7 days,Yes,No,Yes,No,No,Yes,No,Yes,No,39.2,82,gastrointestinal infection
+pig,poland china,3,male,110.0,fever,coughing,nasal discharge,weight loss,6 days,No,Yes,Yes,No,Yes,No,Yes,No,Yes,39.8,87,actinobacillus pleuropneumonia
+dog,golden retriever,7,male,30.0,vomiting,diarrhea,loss of appetite,lethargy,6 days,Yes,No,Yes,Yes,No,No,Yes,No,No,39.5,118,canine parvovirus
+cat,sphynx,4,male,5.2,vomiting,diarrhea,loss of appetite,lethargy,5 days,Yes,Yes,Yes,No,Yes,Yes,No,No,No,39.1,148,feline infectious peritonitis
+horse,clydesdale,15,female,700.0,swollen joints,lameness,weight loss,lethargy,8 days,No,Yes,No,Yes,Yes,No,Yes,Yes,Yes,39.5,77,equine metabolic syndrome
+cow,simmental,8,male,580.0,appetite loss,weight loss,fever,lethargy,6 days,Yes,Yes,Yes,Yes,No,Yes,No,No,Yes,39.3,80,bovine johne's disease
+rabbit,mini rex,1,female,1.2,nasal discharge,lethargy,loss of appetite,sneezing,2 days,Yes,No,Yes,No,Yes,No,Yes,No,No,38.7,165,pasteurellosis
+dog,rottweiler,5,female,42.0,lethargy,vomiting,loss of appetite,coughing,4 days,Yes,Yes,No,Yes,No,Yes,Yes,No,No,39.2,120,canine parvovirus
+cat,bengal,3,male,5.5,nasal discharge,coughing,sneezing,lethargy,5 days,Yes,Yes,No,Yes,No,Yes,No,No,Yes,38.9,140,feline calicivirus
+horse,thoroughbred,7,female,480.0,lameness,loss of appetite,swollen legs,fever,6 days,No,Yes,Yes,No,Yes,Yes,No,Yes,No,39.6,75,equine influenza
+cow,angus,6,male,550.0,coughing,nasal discharge,fever,weight loss,7 days,Yes,No,Yes,Yes,Yes,No,Yes,No,No,39.4,82,bovine respiratory disease
+rabbit,himalayan,2,male,1.6,nasal discharge,sneezing,lethargy,appetite loss,3 days,Yes,Yes,No,Yes,No,No,Yes,No,No,38.5,150,rabbit hemorrhagic disease
+sheep,texel,4,female,85.0,lameness,swollen joints,loss of appetite,diarrhea,5 days,Yes,No,No,Yes,No,No,Yes,Yes,No,39.3,76,blue tongue virus
+goat,alpine,5,male,72.0,vomiting,diarrhea,fever,loss of appetite,6 days,Yes,Yes,No,Yes,No,No,Yes,Yes,No,39.0,81,caprine arthritis encephalitis
+pig,duroc,3,female,100.0,coughing,nasal discharge,loss of appetite,lethargy,4 days,Yes,No,Yes,No,Yes,Yes,No,No,Yes,39.5,88,swine influenza
+dog,doberman pinscher,6,male,40.0,vomiting,lethargy,loss of appetite,coughing,5 days,Yes,Yes,No,Yes,No,No,Yes,Yes,No,39.3,119,canine distemper
+cat,siamese,4,female,4.2,nasal discharge,lethargy,loss of appetite,fever,6 days,Yes,No,Yes,Yes,No,Yes,No,Yes,Yes,38.8,145,feline leukemia virus
+horse,pinto,9,male,530.0,lameness,coughing,loss of appetite,swollen legs,7 days,No,Yes,No,Yes,Yes,No,No,Yes,No,39.7,77,equine infectious anemia
+cow,charolais,5,female,620.0,lethargy,coughing,nasal discharge,fever,4 days,Yes,Yes,Yes,No,Yes,No,No,Yes,Yes,39.6,81,bovine tuberculosis
+rabbit,mini lop,1,female,1.2,nasal discharge,loss of appetite,lethargy,sneezing,2 days,Yes,Yes,Yes,Yes,No,No,Yes,No,No,38.7,155,myxomatosis
+sheep,suffolk,6,male,90.0,swollen joints,loss of appetite,lethargy,coughing,5 days,Yes,Yes,No,Yes,No,Yes,No,Yes,No,39.4,78,caseous lymphadenitis
+goat,boer,3,female,70.0,fever,vomiting,diarrhea,appetite loss,5 days,Yes,No,Yes,No,Yes,Yes,No,Yes,Yes,39.5,80,caprine pleuropneumonia
+pig,landrace,5,male,120.0,coughing,nasal discharge,loss of appetite,lethargy,6 days,Yes,Yes,No,No,Yes,No,Yes,Yes,No,39.2,85,actinobacillus pleuropneumonia
+dog,pit bull,4,female,35.0,lethargy,vomiting,loss of appetite,coughing,3 days,Yes,Yes,No,Yes,No,Yes,No,No,No,39.0,125,leptospirosis
+cat,persian,5,male,5.0,eye discharge,nasal discharge,sneezing,lethargy,4 days,Yes,Yes,No,Yes,No,Yes,Yes,No,Yes,38.9,148,feline herpesvirus
+horse,mustang,12,male,550.0,lameness,appetite loss,swollen legs,fever,5 days,No,Yes,Yes,No,Yes,No,Yes,No,Yes,39.6,80,equine laminitis
+cow,hereford,7,female,580.0,loss of appetite,fever,coughing,lethargy,6 days,Yes,No,Yes,Yes,No,Yes,Yes,Yes,Yes,39.5,80,bovine johne's disease
+rabbit,holland lop,3,male,1.3,nasal discharge,loss of appetite,lethargy,fever,4 days,Yes,Yes,No,No,Yes,No,Yes,Yes,No,38.6,160,rabbit syphilis
+sheep,border leicester,5,male,90.0,lethargy,nasal discharge,swollen joints,loss of appetite,5 days,Yes,Yes,No,Yes,No,Yes,No,Yes,Yes,39.7,74,chlamydia in sheep
+goat,nubian,6,female,60.0,vomiting,fever,loss of appetite,lethargy,5 days,Yes,No,Yes,Yes,No,Yes,No,No,No,39.3,82,caprine respiratory disease
+pig,wessex saddleback,3,male,105.0,vomiting,fever,loss of appetite,lethargy,5 days,Yes,Yes,No,Yes,Yes,No,Yes,No,Yes,39.0,84,actinobacillus suis
+dog,cocker spaniel,5,female,20.0,vomiting,lethargy,loss of appetite,fever,4 days,Yes,Yes,No,No,Yes,No,No,Yes,No,39.2,123,canine leptospirosis
+cat,scottish fold,4,male,4.8,coughing,loss of appetite,fever,lethargy,5 days,Yes,No,Yes,No,No,Yes,No,Yes,Yes,38.8,147,feline chlamydia
+horse,arabian,6,female,500.0,lameness,loss of appetite,swollen legs,coughing,6 days,No,Yes,Yes,Yes,No,No,Yes,Yes,No,39.4,79,equine west nile virus
+cow,jersey,5,female,500.0,coughing,nasal discharge,lethargy,fever,5 days,Yes,Yes,Yes,No,Yes,No,No,Yes,Yes,39.5,81,bovine viral diarrhea
+rabbit,english angora,2,male,1.5,sneezing,nasal discharge,loss of appetite,fever,3 days,Yes,No,No,Yes,Yes,No,Yes,No,No,38.9,153,myxomatosis
+dog,german shepherd,4,female,45.0,lethargy,loss of appetite,coughing,fever,5 days,Yes,No,Yes,Yes,No,Yes,Yes,No,No,39.4,120,canine parvovirus
+cat,maine coon,3,male,7.5,lethargy,vomiting,loss of appetite,diarrhea,4 days,Yes,Yes,No,Yes,Yes,Yes,No,Yes,No,39.1,148,feline infectious peritonitis
+horse,clydesdale,9,male,850.0,lameness,coughing,loss of appetite,fever,6 days,No,Yes,Yes,No,Yes,No,Yes,Yes,No,39.2,79,equine rhinopneumonitis
+cow,holstein,5,female,620.0,coughing,fever,loss of appetite,lethargy,7 days,Yes,No,Yes,Yes,No,Yes,Yes,No,Yes,39.3,82,bovine respiratory syncytial virus
+rabbit,english spot,2,female,1.3,sneezing,nasal discharge,loss of appetite,fever,3 days,Yes,No,Yes,Yes,No,No,Yes,Yes,No,38.8,155,rabbit syphilis
+sheep,finnsheep,4,male,70.0,coughing,lethargy,loss of appetite,swollen joints,5 days,Yes,No,Yes,Yes,No,Yes,No,Yes,Yes,39.0,75,scrapie
+goat,saanen,5,female,65.0,vomiting,fever,diarrhea,loss of appetite,6 days,Yes,Yes,No,No,Yes,Yes,No,Yes,Yes,39.4,80,caprine pleuropneumonia
+pig,tamworth,3,male,100.0,coughing,lethargy,nasal discharge,loss of appetite,4 days,Yes,Yes,No,Yes,Yes,No,Yes,No,No,39.6,85,porcine epidemic diarrhea
+dog,poodle,6,male,25.0,lethargy,loss of appetite,coughing,fever,5 days,Yes,Yes,No,Yes,No,No,Yes,Yes,No,39.3,110,canine distemper
+cat,russian blue,3,female,4.8,nasal discharge,coughing,loss of appetite,lethargy,4 days,Yes,No,Yes,No,Yes,No,Yes,Yes,No,38.9,145,feline leukemia virus
+horse,shetland pony,8,female,300.0,lameness,loss of appetite,swollen legs,fever,5 days,Yes,Yes,No,Yes,No,Yes,Yes,No,No,39.5,76,equine herpesvirus
+cow,guernsey,7,male,590.0,coughing,lethargy,loss of appetite,swollen legs,6 days,Yes,No,No,Yes,Yes,Yes,Yes,No,Yes,39.1,78,bovine tuberculosis
+rabbit,mini rex,1,female,1.1,sneezing,loss of appetite,fever,nasal discharge,2 days,Yes,Yes,No,Yes,No,No,Yes,No,No,38.7,160,myxomatosis
+sheep,leicester longwool,6,male,95.0,swollen joints,loss of appetite,coughing,lethargy,5 days,Yes,No,Yes,No,Yes,No,No,Yes,No,39.4,74,chlamydia in sheep
+goat,nigerian dwarf,2,female,55.0,vomiting,fever,loss of appetite,lethargy,4 days,Yes,Yes,No,Yes,No,No,Yes,No,Yes,39.2,82,caprine arthritis encephalitis
+pig,large white,6,female,115.0,coughing,nasal discharge,loss of appetite,lethargy,7 days,Yes,No,Yes,Yes,Yes,No,Yes,No,No,39.7,83,swine influenza
+dog,golden retriever,7,male,33.0,lethargy,vomiting,loss of appetite,fever,5 days,Yes,Yes,Yes,No,Yes,Yes,No,No,Yes,39.2,118,canine leptospirosis
+cat,burmese,4,male,4.3,nasal discharge,coughing,loss of appetite,lethargy,3 days,Yes,No,No,Yes,No,Yes,Yes,No,Yes,39.0,150,feline calicivirus
+horse,welsh pony,5,female,400.0,lameness,loss of appetite,swollen legs,fever,4 days,No,Yes,Yes,No,Yes,No,Yes,Yes,No,39.4,78,equine influenza
+cow,aberdeen angus,6,female,620.0,coughing,fever,loss of appetite,lethargy,5 days,Yes,No,Yes,No,Yes,Yes,Yes,Yes,No,39.2,80,bovine respiratory disease
+rabbit,himalayan,2,male,1.2,sneezing,loss of appetite,fever,nasal discharge,4 days,Yes,Yes,No,Yes,No,No,Yes,No,Yes,38.8,154,rabbit hemorrhagic disease
+sheep,dorset,3,male,75.0,coughing,loss of appetite,lethargy,fever,5 days,Yes,No,Yes,Yes,Yes,No,Yes,No,No,39.1,77,foot and mouth disease
+goat,toggenburg,5,female,60.0,vomiting,diarrhea,loss of appetite,fever,4 days,Yes,Yes,Yes,No,Yes,No,Yes,No,No,39.6,81,caprine pleuropneumonia
+pig,berkshire,4,male,95.0,coughing,loss of appetite,lethargy,nasal discharge,3 days,Yes,No,No,Yes,Yes,Yes,Yes,Yes,No,39.2,88,porcine reproductive and respiratory syndrome
+dog,bulldog,5,female,18.0,lethargy,coughing,loss of appetite,fever,5 days,Yes,No,No,Yes,Yes,Yes,No,Yes,No,39.3,115,kennel cough
+cat,siamese,6,male,5.5,coughing,loss of appetite,lethargy,fever,4 days,Yes,No,No,Yes,No,No,Yes,Yes,No,39.0,149,feline infectious peritonitis
+horse,thoroughbred,8,female,550.0,lameness,loss of appetite,swollen legs,fever,5 days,Yes,No,Yes,No,Yes,Yes,No,Yes,Yes,39.2,77,equine herpesvirus
+cow,ayrshire,4,male,630.0,coughing,lethargy,loss of appetite,swollen legs,6 days,Yes,No,Yes,Yes,No,Yes,Yes,Yes,No,39.1,79,bovine tuberculosis
+dog,beagle,4,female,15.0,coughing,loss of appetite,lethargy,fever,4 days,Yes,No,Yes,Yes,No,No,Yes,Yes,No,39.2,125,canine influenza
+cat,bengal,3,male,5.0,nasal discharge,coughing,loss of appetite,fever,5 days,Yes,Yes,No,Yes,Yes,No,Yes,No,Yes,39.0,140,feline calicivirus
+horse,arabian,7,female,500.0,lameness,loss of appetite,swollen legs,fever,6 days,No,Yes,Yes,Yes,No,Yes,Yes,No,No,39.3,85,equine protozoal myeloencephalitis
+cow,jersey,5,male,560.0,coughing,loss of appetite,lethargy,fever,5 days,Yes,No,Yes,Yes,Yes,Yes,Yes,No,Yes,39.1,79,bovine tuberculosis
+rabbit,himalayan,2,male,1.2,sneezing,loss of appetite,nasal discharge,fever,3 days,Yes,No,Yes,Yes,No,No,Yes,No,Yes,38.7,155,rabbit hemorrhagic disease
+sheep,suffolk,5,female,90.0,coughing,lethargy,loss of appetite,fever,4 days,Yes,No,Yes,Yes,Yes,Yes,No,Yes,No,39.2,72,foot and mouth disease
+goat,boer,6,male,70.0,vomiting,diarrhea,loss of appetite,fever,5 days,Yes,Yes,No,Yes,No,Yes,Yes,No,No,39.4,80,caprine arthritis encephalitis
+pig,duroc,4,female,105.0,coughing,loss of appetite,nasal discharge,lethargy,3 days,Yes,No,Yes,No,Yes,No,Yes,No,Yes,39.5,83,porcine respiratory disease complex
+dog,chihuahua,3,male,6.0,lethargy,vomiting,loss of appetite,fever,2 days,Yes,Yes,No,Yes,Yes,No,Yes,Yes,No,39.0,118,canine parvovirus
+cat,scottish fold,5,female,4.7,nasal discharge,coughing,loss of appetite,fever,6 days,Yes,Yes,Yes,Yes,No,Yes,No,Yes,Yes,38.9,150,feline infectious peritonitis
+horse,mustang,8,male,550.0,lameness,loss of appetite,swollen legs,fever,7 days,No,Yes,Yes,Yes,Yes,No,No,Yes,No,39.1,87,equine influenza
+cow,simmental,4,male,650.0,coughing,loss of appetite,lethargy,fever,6 days,Yes,No,Yes,Yes,Yes,Yes,No,No,Yes,39.3,78,bovine respiratory syncytial virus
+rabbit,mini lop,1,female,1.0,sneezing,loss of appetite,nasal discharge,fever,3 days,Yes,No,Yes,Yes,Yes,No,Yes,No,No,38.8,158,myxomatosis
+sheep,karakul,5,male,80.0,swollen joints,coughing,loss of appetite,lethargy,4 days,Yes,No,Yes,Yes,Yes,Yes,No,Yes,Yes,39.4,75,scrapie
+goat,angora,6,female,60.0,vomiting,loss of appetite,lethargy,fever,5 days,Yes,Yes,Yes,Yes,No,No,Yes,No,Yes,39.6,83,caprine pleuropneumonia
+pig,landrace,4,male,100.0,coughing,loss of appetite,lethargy,fever,5 days,Yes,Yes,Yes,Yes,Yes,No,Yes,No,Yes,39.2,87,porcine epidemic diarrhea
+dog,rottweiler,5,female,40.0,lethargy,vomiting,loss of appetite,fever,4 days,Yes,No,Yes,Yes,Yes,Yes,No,Yes,No,39.3,122,canine distemper
+cat,abyssinian,3,male,4.6,nasal discharge,coughing,loss of appetite,fever,4 days,Yes,No,Yes,No,Yes,Yes,Yes,No,No,39.0,142,feline leukemia virus
+horse,tennessee walking horse,6,female,600.0,lameness,swollen legs,loss of appetite,fever,6 days,No,Yes,Yes,Yes,No,No,Yes,Yes,Yes,39.4,82,equine rhinopneumonitis
+cow,dexter,3,male,450.0,coughing,loss of appetite,lethargy,fever,5 days,Yes,Yes,No,Yes,Yes,No,Yes,Yes,Yes,39.3,79,bovine viral diarrhea
+rabbit,holland lop,1,male,1.0,sneezing,loss of appetite,nasal discharge,fever,3 days,Yes,Yes,No,Yes,No,Yes,Yes,No,No,38.9,153,rabbit syphilis
+sheep,corriedale,4,female,95.0,swollen joints,coughing,loss of appetite,lethargy,5 days,Yes,No,No,Yes,Yes,Yes,No,Yes,No,39.1,76,blue tongue
+goat,kiko,5,male,72.0,vomiting,loss of appetite,lethargy,fever,6 days,Yes,Yes,No,Yes,No,Yes,Yes,No,Yes,39.5,80,caprine pleuropneumonia
+pig,hampshire,3,female,105.0,coughing,loss of appetite,lethargy,nasal discharge,5 days,Yes,Yes,No,Yes,Yes,No,Yes,No,Yes,39.2,86,porcine respiratory disease complex
+dog,golden retriever,7,male,30.0,coughing,loss of appetite,lethargy,fever,5 days,Yes,Yes,Yes,Yes,Yes,No,Yes,No,No,39.0,130,canine distemper
+cat,persian,6,female,4.2,nasal discharge,loss of appetite,lethargy,fever,5 days,Yes,Yes,No,Yes,No,No,Yes,Yes,No,39.1,148,feline coronavirus
+horse,standardbred,6,male,650.0,lameness,swollen legs,loss of appetite,fever,6 days,Yes,No,Yes,No,Yes,Yes,Yes,No,Yes,39.4,80,equine influenza
+cow,charolais,3,male,700.0,coughing,loss of appetite,lethargy,fever,5 days,Yes,Yes,No,No,Yes,Yes,No,Yes,Yes,39.2,77,bovine tuberculosis
+dog,poodle,3,female,20.0,vomiting,diarrhea,lethargy,fever,4 days,Yes,No,Yes,No,Yes,Yes,Yes,No,Yes,39.0,120,parvovirus
+cat,maine coon,5,male,8.5,coughing,loss of appetite,lethargy,fever,3 days,Yes,Yes,No,Yes,Yes,No,Yes,No,Yes,39.1,145,feline upper respiratory infection
+horse,clydesdale,7,female,850.0,lameness,swollen legs,loss of appetite,fever,6 days,Yes,No,Yes,Yes,Yes,No,Yes,No,Yes,39.2,82,equine herpesvirus
+cow,holstein,4,male,700.0,coughing,loss of appetite,lethargy,fever,5 days,Yes,Yes,No,No,Yes,No,Yes,No,Yes,39.3,77,bovine respiratory disease
+rabbit,dutch,2,male,1.8,sneezing,nasal discharge,loss of appetite,fever,4 days,Yes,Yes,No,Yes,No,Yes,No,No,Yes,39.0,150,rabbit viral hemorrhagic disease
+sheep,southdown,6,female,80.0,coughing,loss of appetite,lethargy,fever,5 days,Yes,No,Yes,Yes,No,Yes,Yes,No,No,39.3,74,contagious ecthyma
+goat,nubian,4,male,72.0,vomiting,loss of appetite,lethargy,fever,6 days,Yes,Yes,No,Yes,Yes,No,Yes,No,Yes,39.6,80,pneumonia
+pig,berkshire,5,female,110.0,coughing,loss of appetite,nasal discharge,fever,5 days,Yes,No,Yes,Yes,Yes,No,Yes,No,Yes,39.2,85,swine influenza
+dog,german shepherd,4,male,32.0,lethargy,vomiting,loss of appetite,fever,3 days,Yes,Yes,No,Yes,Yes,Yes,Yes,No,No,39.1,130,canine hepatitis
+cat,sphynx,3,female,5.0,nasal discharge,loss of appetite,coughing,fever,4 days,Yes,No,Yes,No,Yes,Yes,No,Yes,Yes,39.0,155,feline rhinotracheitis
+horse,andalusian,8,male,550.0,lameness,swollen legs,loss of appetite,fever,7 days,Yes,No,Yes,Yes,No,Yes,Yes,No,Yes,39.4,88,equine encephalomyelitis
+cow,guernsey,5,female,450.0,coughing,loss of appetite,lethargy,fever,4 days,Yes,No,Yes,No,Yes,Yes,Yes,Yes,No,39.0,78,bovine parainfluenza
+rabbit,english angora,3,male,1.4,sneezing,nasal discharge,loss of appetite,fever,4 days,Yes,Yes,No,Yes,Yes,Yes,No,Yes,No,38.9,148,pasteurellosis
+sheep,tunis,4,male,95.0,swollen joints,coughing,loss of appetite,lethargy,5 days,Yes,Yes,No,Yes,No,Yes,Yes,No,No,39.2,76,bluetongue virus
+goat,boer,6,female,75.0,vomiting,loss of appetite,lethargy,fever,6 days,Yes,Yes,No,Yes,Yes,No,Yes,Yes,Yes,39.7,82,caprine viral arthritis
+pig,large white,4,male,120.0,coughing,loss of appetite,lethargy,fever,6 days,Yes,No,Yes,Yes,Yes,Yes,No,Yes,No,39.1,86,actinobacillus pleuropneumonia
+dog,bulldog,3,female,25.0,lethargy,vomiting,loss of appetite,fever,4 days,Yes,No,Yes,Yes,Yes,Yes,Yes,No,Yes,39.2,125,canine leptospirosis
+cat,russian blue,2,male,6.0,nasal discharge,loss of appetite,coughing,fever,3 days,Yes,Yes,Yes,Yes,No,Yes,Yes,No,Yes,39.0,145,feline asthma
+horse,thoroughbred,6,female,650.0,lameness,swollen legs,loss of appetite,fever,6 days,Yes,No,Yes,No,Yes,No,Yes,Yes,No,39.3,84,equine influenza virus
+cow,red poll,4,male,680.0,coughing,loss of appetite,lethargy,fever,6 days,Yes,Yes,No,No,Yes,No,Yes,Yes,Yes,39.4,77,bovine tuberculosis
+rabbit,himalayan,2,female,1.1,sneezing,loss of appetite,nasal discharge,fever,3 days,Yes,No,Yes,Yes,No,Yes,Yes,No,Yes,38.8,150,rabbit calicivirus
+sheep,romney,5,female,90.0,coughing,loss of appetite,lethargy,fever,4 days,Yes,No,Yes,Yes,No,Yes,Yes,Yes,No,39.1,75,maedi-visna
+goat,alpine,5,male,80.0,vomiting,diarrhea,loss of appetite,fever,4 days,Yes,Yes,No,Yes,No,Yes,Yes,Yes,Yes,39.5,80,caseous lymphadenitis
+pig,pietrain,4,female,130.0,coughing,loss of appetite,lethargy,nasal discharge,6 days,Yes,Yes,No,Yes,No,Yes,No,Yes,Yes,39.2,88,swine erysipelas
+dog,beagle,5,male,25.0,coughing,loss of appetite,lethargy,fever,5 days,Yes,Yes,No,No,Yes,Yes,Yes,No,Yes,39.2,120,kennel cough
+cat,bengal,3,female,6.0,nasal discharge,loss of appetite,coughing,fever,4 days,Yes,Yes,Yes,Yes,No,Yes,Yes,No,Yes,39.1,145,feline herpesvirus
+horse,appaloosa,9,male,550.0,lameness,loss of appetite,swollen legs,fever,7 days,Yes,Yes,No,Yes,No,Yes,Yes,Yes,Yes,39.4,80,equine infectious anemia
+cow,jersey,6,female,500.0,coughing,loss of appetite,lethargy,fever,5 days,Yes,No,Yes,No,Yes,Yes,Yes,No,Yes,39.2,75,bovine viral diarrhea
+rabbit,english lop,3,male,2.0,sneezing,nasal discharge,loss of appetite,fever,4 days,Yes,Yes,No,Yes,Yes,Yes,Yes,No,No,39.0,155,myxomatosis
+sheep,blackface,4,male,95.0,coughing,loss of appetite,lethargy,fever,6 days,Yes,No,Yes,No,Yes,Yes,No,Yes,No,39.3,77,blue tongue disease
+goat,saanen,5,female,85.0,vomiting,diarrhea,lethargy,fever,6 days,Yes,Yes,No,Yes,No,Yes,Yes,Yes,No,39.6,85,caprine arthritis encephalitis
+pig,landrace,6,male,120.0,coughing,loss of appetite,nasal discharge,fever,5 days,Yes,No,Yes,Yes,No,No,Yes,Yes,No,39.1,95,actinobacillus pleuropneumonia
+dog,chihuahua,4,female,5.0,lethargy,vomiting,loss of appetite,fever,3 days,Yes,Yes,No,Yes,Yes,Yes,Yes,No,No,39.1,110,canine parvovirus
+cat,siberian,7,male,10.2,nasal discharge,loss of appetite,coughing,fever,5 days,Yes,Yes,Yes,Yes,No,No,Yes,Yes,No,39.0,135,feline asthma
+horse,clydesdale,7,female,800.0,lameness,swollen legs,loss of appetite,fever,6 days,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,39.5,85,equine leptospirosis
+cow,ayrshire,5,male,720.0,coughing,loss of appetite,lethargy,fever,4 days,Yes,Yes,No,No,Yes,Yes,Yes,No,Yes,39.3,82,bovine tuberculosis
+rabbit,himalayan,4,female,1.6,sneezing,loss of appetite,nasal discharge,fever,5 days,Yes,No,Yes,No,Yes,Yes,Yes,No,Yes,39.0,145,pasteurellosis
+sheep,suffolk,4,male,85.0,coughing,loss of appetite,lethargy,fever,5 days,Yes,Yes,No,Yes,No,No,Yes,Yes,No,39.4,78,contagious abortion
+goat,nubian,6,female,95.0,vomiting,diarrhea,lethargy,fever,6 days,Yes,Yes,No,Yes,No,Yes,Yes,Yes,Yes,39.8,80,pneumonia
+pig,duroc,3,male,110.0,coughing,loss of appetite,lethargy,fever,5 days,Yes,Yes,No,Yes,Yes,No,Yes,No,Yes,39.2,100,swine dysentery
+dog,boxer,6,female,30.0,lethargy,vomiting,loss of appetite,fever,4 days,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,39.1,115,canine leptospirosis
+cat,abyssinian,5,male,4.5,coughing,loss of appetite,nasal discharge,fever,3 days,Yes,No,Yes,No,Yes,Yes,Yes,No,Yes,39.0,140,feline respiratory disease complex
+horse,morgan,5,male,550.0,lameness,loss of appetite,swollen legs,fever,6 days,Yes,Yes,No,Yes,Yes,No,Yes,Yes,Yes,39.2,80,equine herpesvirus
+cow,belted galloway,4,female,650.0,coughing,loss of appetite,lethargy,fever,4 days,Yes,Yes,Yes,No,Yes,Yes,Yes,No,Yes,39.4,75,bovine tuberculosis
+rabbit,dutch,3,male,2.0,sneezing,loss of appetite,nasal discharge,fever,4 days,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,39.1,150,rabbit hemorrhagic disease
+sheep,cheviot,3,female,75.0,coughing,loss of appetite,lethargy,fever,5 days,Yes,Yes,No,Yes,No,No,Yes,Yes,No,39.3,77,foot-and-mouth disease
+goat,angora,4,male,90.0,vomiting,diarrhea,lethargy,fever,5 days,Yes,Yes,Yes,No,Yes,No,Yes,No,Yes,39.6,82,caprine arthritis
+pig,large white,5,female,130.0,coughing,loss of appetite,lethargy,fever,6 days,Yes,No,Yes,Yes,Yes,Yes,Yes,No,Yes,39.0,90,swine flu
+dog,yorkshire terrier,4,male,8.0,lethargy,vomiting,loss of appetite,fever,3 days,Yes,Yes,No,Yes,Yes,No,Yes,No,Yes,39.2,100,canine heartworm disease
+cat,maine coon,6,female,10.0,coughing,loss of appetite,nasal discharge,fever,4 days,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,39.1,145,feline leukemia
+horse,thoroughbred,6,male,550.0,lameness,loss of appetite,swollen legs,fever,5 days,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Yes,39.5,78,equine influenza
+dog,rottweiler,7,male,35.0,coughing,loss of appetite,lethargy,fever,4 days,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Yes,39.3,110,kennel cough
+cat,persian,4,female,7.0,vomiting,loss of appetite,lethargy,fever,5 days,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,39.1,125,feline infectious peritonitis
+horse,clydesdale,10,female,750.0,lameness,swollen legs,loss of appetite,fever,6 days,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,39.4,90,equine encephalomyelitis
+cow,holstein,8,male,650.0,coughing,loss of appetite,lethargy,fever,4 days,Yes,No,Yes,No,Yes,Yes,Yes,No,Yes,39.5,80,bovine respiratory disease complex
+rabbit,himalayan,3,male,1.8,sneezing,nasal discharge,loss of appetite,fever,4 days,Yes,Yes,No,Yes,No,Yes,Yes,No,Yes,39.0,140,rabbit viral hemorrhagic disease
+sheep,rambouillet,5,female,90.0,coughing,loss of appetite,lethargy,fever,5 days,Yes,Yes,No,Yes,Yes,Yes,No,No,Yes,39.3,78,scrapie
+goat,boer,6,male,100.0,vomiting,diarrhea,lethargy,fever,5 days,Yes,Yes,No,Yes,No,Yes,Yes,Yes,Yes,39.6,85,pneumonia
+pig,berkshire,4,female,120.0,coughing,loss of appetite,lethargy,fever,6 days,Yes,Yes,No,Yes,No,Yes,Yes,Yes,Yes,39.2,100,swine fever
+dog,golden retriever,5,male,40.0,vomiting,loss of appetite,lethargy,fever,5 days,Yes,Yes,No,Yes,No,Yes,Yes,No,No,39.2,130,canine parvovirus
+cat,bengal,3,female,8.0,nasal discharge,loss of appetite,coughing,fever,4 days,Yes,Yes,No,Yes,No,Yes,Yes,No,Yes,39.0,145,feline panleukopenia
+horse,arabian,7,male,450.0,lameness,swollen legs,loss of appetite,fever,6 days,Yes,Yes,Yes,No,Yes,No,Yes,Yes,Yes,39.4,85,equine protozoal myeloencephalitis
+cow,jersey,6,female,550.0,coughing,loss of appetite,lethargy,fever,5 days,Yes,No,Yes,No,Yes,Yes,No,Yes,No,39.6,70,johne's disease
+rabbit,english angora,2,male,1.9,sneezing,loss of appetite,nasal discharge,fever,3 days,Yes,Yes,No,Yes,Yes,Yes,No,No,Yes,39.1,150,ringworm
+sheep,suffolk,4,male,110.0,coughing,loss of appetite,lethargy,fever,6 days,Yes,Yes,No,Yes,No,Yes,No,Yes,Yes,39.3,77,bluetongue
+goat,nubian,7,female,120.0,vomiting,diarrhea,lethargy,fever,5 days,Yes,Yes,No,Yes,No,Yes,Yes,Yes,No,39.7,85,foot-and-mouth disease
+pig,tamworth,5,male,150.0,coughing,loss of appetite,lethargy,fever,5 days,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,39.3,92,actinobacillus pleuropneumonia
+dog,beagle,4,female,25.0,lethargy,vomiting,loss of appetite,fever,4 days,Yes,Yes,No,Yes,Yes,Yes,No,Yes,Yes,39.2,120,distemper
+cat,siberian,5,male,11.0,coughing,loss of appetite,nasal discharge,fever,4 days,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,39.2,140,feline leukemia virus
+horse,pinto,6,male,600.0,lameness,loss of appetite,swollen legs,fever,5 days,Yes,Yes,No,Yes,No,Yes,Yes,Yes,Yes,39.5,88,equine influenza
+cow,ayrshire,7,female,550.0,coughing,loss of appetite,lethargy,fever,6 days,Yes,No,Yes,Yes,Yes,Yes,Yes,No,Yes,39.4,75,bovine johne's disease
+rabbit,mini rex,2,female,1.5,sneezing,loss of appetite,nasal discharge,fever,3 days,Yes,Yes,Yes,No,Yes,No,Yes,No,Yes,39.1,130,pneumonia
+sheep,dorper,4,male,95.0,coughing,loss of appetite,lethargy,fever,6 days,Yes,Yes,No,Yes,No,Yes,Yes,No,No,39.3,78,contagious ecthyma
+goat,saanen,8,female,110.0,vomiting,diarrhea,lethargy,fever,6 days,Yes,Yes,Yes,No,Yes,Yes,No,No,Yes,39.8,85,caprine arthritis encephalitis
+pig,landrace,6,female,130.0,coughing,loss of appetite,lethargy,fever,5 days,Yes,Yes,No,Yes,Yes,No,Yes,Yes,No,39.2,110,swine influenza
+dog,chihuahua,3,male,6.0,lethargy,vomiting,loss of appetite,fever,5 days,Yes,No,No,Yes,Yes,Yes,Yes,Yes,No,39.3,135,parvovirus
+cat,burmese,4,female,7.5,coughing,loss of appetite,nasal discharge,fever,5 days,Yes,Yes,No,Yes,Yes,No,Yes,Yes,Yes,39.0,140,feline chlamydiosis
+horse,appaloosa,8,male,700.0,lameness,loss of appetite,swollen legs,fever,7 days,Yes,No,Yes,Yes,Yes,No,Yes,Yes,Yes,39.3,82,west nile virus
+cow,guernsey,5,female,600.0,coughing,loss of appetite,lethargy,fever,5 days,Yes,No,No,Yes,Yes,Yes,No,Yes,Yes,39.6,85,bovine tuberculosis
+dog,poodle,3,female,28.0,coughing,loss of appetite,lethargy,fever,5 days,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,39.1,120,kennel cough
+cat,maine coon,4,male,10.0,vomiting,loss of appetite,lethargy,fever,5 days,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,No,39.0,140,feline leukemia virus
+horse,thoroughbred,5,female,550.0,lameness,swollen legs,loss of appetite,fever,6 days,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,39.5,100,equine influenza
+cow,charolais,8,male,700.0,coughing,loss of appetite,lethargy,fever,5 days,Yes,Yes,No,No,Yes,Yes,Yes,No,Yes,39.2,75,bovine respiratory disease
+rabbit,holland lop,2,male,1.5,sneezing,nasal discharge,loss of appetite,fever,4 days,Yes,Yes,No,Yes,Yes,Yes,No,Yes,Yes,39.3,130,pasteurellosis
+sheep,blackface,6,male,95.0,coughing,loss of appetite,lethargy,fever,5 days,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,No,39.4,80,foot-and-mouth disease
+goat,kiko,4,female,90.0,vomiting,diarrhea,lethargy,fever,5 days,Yes,No,Yes,Yes,No,Yes,Yes,No,Yes,39.6,85,caprine arthritis encephalitis
+pig,large white,3,female,120.0,coughing,loss of appetite,lethargy,fever,4 days,Yes,Yes,No,Yes,Yes,No,Yes,Yes,No,39.1,95,swine influenza
+dog,beagle,4,male,20.0,lethargy,vomiting,loss of appetite,fever,4 days,Yes,No,Yes,Yes,No,Yes,Yes,Yes,Yes,39.2,130,canine distemper
+cat,siamese,3,female,7.0,coughing,loss of appetite,nasal discharge,fever,3 days,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,39.0,140,feline infectious peritonitis
+horse,clydesdale,8,male,800.0,lameness,swollen legs,loss of appetite,fever,6 days,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,39.6,85,equine encephalomyelitis
+cow,simmental,7,female,650.0,coughing,loss of appetite,lethargy,fever,5 days,Yes,No,Yes,No,Yes,No,Yes,Yes,Yes,39.3,75,bovine tuberculosis
+rabbit,mini lop,1,female,1.3,sneezing,nasal discharge,loss of appetite,fever,3 days,Yes,Yes,No,No,Yes,Yes,No,Yes,Yes,39.1,140,myxomatosis
+sheep,texel,5,male,110.0,coughing,loss of appetite,lethargy,fever,6 days,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,No,39.4,70,scrapie
+goat,angora,7,female,100.0,vomiting,diarrhea,lethargy,fever,5 days,Yes,Yes,Yes,No,Yes,No,Yes,Yes,Yes,39.7,80,pneumonia
+pig,landrace,5,male,130.0,coughing,loss of appetite,lethargy,fever,4 days,Yes,No,Yes,Yes,Yes,Yes,Yes,No,Yes,39.2,90,actinobacillus pleuropneumonia
+dog,dachshund,3,female,12.0,lethargy,vomiting,loss of appetite,fever,4 days,Yes,Yes,No,Yes,No,Yes,Yes,Yes,No,39.0,115,canine parvovirus
+cat,bengal,4,male,10.0,vomiting,loss of appetite,lethargy,fever,4 days,Yes,Yes,No,Yes,No,Yes,Yes,No,Yes,39.2,145,feline panleukopenia
+horse,arabian,6,male,500.0,lameness,swollen legs,loss of appetite,fever,6 days,Yes,No,Yes,No,Yes,Yes,No,Yes,No,39.3,85,equine protozoal myeloencephalitis
+cow,jersey,6,male,550.0,coughing,loss of appetite,lethargy,fever,6 days,Yes,Yes,No,Yes,Yes,Yes,No,No,Yes,39.5,70,bovine johne's disease
+rabbit,himalayan,2,male,1.8,sneezing,loss of appetite,nasal discharge,fever,4 days,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,39.2,130,rabbit viral hemorrhagic disease
+sheep,rambouillet,6,female,90.0,coughing,loss of appetite,lethargy,fever,6 days,Yes,Yes,No,Yes,No,Yes,Yes,Yes,No,39.6,80,bluetongue
+goat,boer,7,female,120.0,vomiting,diarrhea,lethargy,fever,5 days,Yes,Yes,No,Yes,Yes,No,Yes,Yes,Yes,39.5,90,foot-and-mouth disease
+pig,tamworth,4,female,150.0,coughing,loss of appetite,lethargy,fever,5 days,Yes,No,Yes,Yes,Yes,Yes,No,Yes,Yes,39.4,85,swine erysipelas
+dog,bulldog,5,female,22.0,coughing,lethargy,loss of appetite,fever,5 days,Yes,Yes,Yes,No,Yes,Yes,Yes,No,Yes,39.3,120,canine cough
+horse,quarter horse,7,male,550.0,lameness,swollen legs,loss of appetite,fever,6 days,Yes,No,Yes,No,Yes,Yes,Yes,No,Yes,39.4,110,equine infectious anemia
+cow,holstein,8,female,750.0,coughing,loss of appetite,lethargy,fever,7 days,Yes,Yes,Yes,Yes,No,Yes,No,Yes,Yes,39.5,85,bovine respiratory disease complex
+rabbit,english angora,1,female,2.0,sneezing,loss of appetite,nasal discharge,fever,5 days,Yes,Yes,Yes,Yes,No,Yes,Yes,No,Yes,39.2,120,respiratory infection
+sheep,cheviot,4,male,85.0,coughing,loss of appetite,lethargy,fever,5 days,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,39.3,95,blue tongue virus
+goat,saanen,2,male,85.0,vomiting,diarrhea,lethargy,fever,5 days,Yes,Yes,No,No,Yes,Yes,Yes,No,Yes,39.6,90,caprine arthritis encephalitis virus
+pig,pietrain,3,female,135.0,coughing,loss of appetite,lethargy,fever,5 days,Yes,No,Yes,Yes,Yes,Yes,Yes,No,Yes,39.4,95,african swine fever
+dog,shih tzu,4,male,8.0,lethargy,vomiting,loss of appetite,fever,4 days,Yes,Yes,Yes,Yes,No,No,Yes,No,Yes,39.2,115,parvovirus
+cat,abyssinian,2,female,6.0,coughing,loss of appetite,nasal discharge,fever,4 days,Yes,Yes,No,Yes,No,Yes,No,Yes,Yes,39.1,140,feline infectious peritonitis
+horse,morgan,9,male,600.0,lameness,swollen legs,loss of appetite,fever,6 days,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,39.5,80,west nile virus
+cow,angus,5,female,650.0,coughing,loss of appetite,lethargy,fever,5 days,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,39.3,75,bovine tuberculosis
+rabbit,himalayan,2,male,1.5,sneezing,loss of appetite,nasal discharge,fever,4 days,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,39.2,130,viral hemorrhagic disease
+sheep,suffolk,6,female,120.0,coughing,loss of appetite,lethargy,fever,5 days,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,39.5,80,scrapie disease
+goat,toggenburg,5,female,75.0,vomiting,diarrhea,lethargy,fever,5 days,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,39.7,85,pneumonia
+pig,landrace,6,male,140.0,coughing,loss of appetite,lethargy,fever,6 days,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,39.5,90,swine influenza
+dog,cocker spaniel,2,female,10.0,lethargy,vomiting,loss of appetite,fever,3 days,Yes,No,Yes,Yes,Yes,No,Yes,Yes,Yes,39.0,125,distemper
+cat,ragdoll,5,male,8.0,coughing,loss of appetite,nasal discharge,fever,4 days,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,39.2,145,feline leukemia virus
+horse,clydesdale,7,male,700.0,lameness,swollen legs,loss of appetite,fever,6 days,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,39.6,85,equine encephalitis
+cow,limousin,6,male,650.0,coughing,loss of appetite,lethargy,fever,5 days,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,39.5,80,bovine respiratory disease complex
+rabbit,mini rex,1,female,1.2,sneezing,nasal discharge,loss of appetite,fever,3 days,Yes,Yes,Yes,No,Yes,No,Yes,No,Yes,39.0,130,rabbit hemorrhagic disease
+sheep,merino,7,male,90.0,coughing,loss of appetite,lethargy,fever,6 days,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,39.4,90,bluetongue
+goat,alpine,6,male,110.0,vomiting,diarrhea,lethargy,fever,5 days,Yes,Yes,Yes,Yes,No,Yes,Yes,No,Yes,39.6,90,caprine arthritis encephalitis virus
+pig,berkshire,4,female,120.0,coughing,loss of appetite,lethargy,fever,5 days,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,39.4,85,swine erysipelas
+dog,rottweiler,3,female,30.0,lethargy,vomiting,loss of appetite,fever,5 days,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,39.2,120,leptospirosis
+cat,bengal,4,male,7.0,coughing,loss of appetite,nasal discharge,fever,5 days,Yes,Yes,No,Yes,No,Yes,No,Yes,Yes,39.1,135,feline immunodeficiency virus
+horse,thoroughbred,5,male,550.0,lameness,swollen legs,loss of appetite,fever,6 days,Yes,Yes,No,Yes,No,Yes,Yes,Yes,Yes,39.5,110,equine infectious anemia
+cow,jersey,3,female,600.0,coughing,loss of appetite,lethargy,fever,5 days,Yes,No,Yes,Yes,Yes,No,No,Yes,Yes,39.4,95,bovine respiratory disease
+sheep,dorset,6,male,120.0,coughing,loss of appetite,lethargy,fever,7 days,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,No,39.5,85,scrapie
+goat,nubian,2,female,80.0,vomiting,diarrhea,lethargy,fever,4 days,Yes,Yes,Yes,Yes,No,Yes,No,No,Yes,39.7,90,caprine arthritis encephalitis
+pig,tamworth,3,male,160.0,coughing,loss of appetite,lethargy,fever,6 days,Yes,Yes,Yes,Yes,Yes,No,Yes,No,Yes,39.5,105,swine influenza
+horse,clydesdale,6,male,700.0,lameness,swollen legs,loss of appetite,fever,7 days,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,39.6,115,equine herpesvirus
+cow,angus,4,female,650.0,coughing,loss of appetite,lethargy,fever,6 days,Yes,Yes,No,Yes,Yes,No,Yes,Yes,Yes,39.5,90,bovine tuberculosis
+rabbit,himalayan,2,male,1.6,sneezing,loss of appetite,nasal discharge,fever,4 days,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,39.2,130,rabbit hemorrhagic disease
+sheep,suffolk,7,male,130.0,coughing,loss of appetite,lethargy,fever,6 days,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,No,39.3,85,bluetongue virus
+goat,alpine,3,female,75.0,vomiting,diarrhea,lethargy,fever,4 days,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,39.7,95,caprine arthritis encephalitis
+pig,berkshire,5,male,140.0,coughing,loss of appetite,lethargy,fever,5 days,Yes,No,Yes,Yes,Yes,Yes,Yes,No,Yes,39.5,100,african swine fever
+dog,chihuahua,2,male,6.0,lethargy,vomiting,loss of appetite,fever,3 days,Yes,Yes,Yes,No,No,Yes,Yes,No,Yes,39.3,130,canine distemper
+cat,maine coon,6,male,9.0,coughing,loss of appetite,nasal discharge,fever,5 days,Yes,Yes,No,Yes,Yes,Yes,No,Yes,Yes,39.4,140,feline herpesvirus
+horse,arabian,7,female,550.0,lameness,swollen legs,loss of appetite,fever,7 days,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,39.7,100,equine infectious anemia
+cow,charolais,8,female,750.0,coughing,loss of appetite,lethargy,fever,6 days,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,39.3,80,bovine respiratory disease
+rabbit,dutch,1,female,1.4,sneezing,loss of appetite,nasal discharge,fever,3 days,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,39.2,130,rabbit viral hemorrhagic disease
+sheep,hampshire,6,male,125.0,coughing,loss of appetite,lethargy,fever,7 days,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,39.6,85,scrapie disease
+goat,nubian,4,male,80.0,vomiting,diarrhea,lethargy,fever,5 days,Yes,Yes,No,Yes,No,Yes,Yes,Yes,No,39.6,90,caprine respiratory disease
+pig,large white,6,female,130.0,coughing,loss of appetite,lethargy,fever,6 days,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,39.4,95,swine fever
+dog,beagle,2,male,10.0,lethargy,vomiting,loss of appetite,fever,4 days,Yes,Yes,Yes,Yes,No,Yes,Yes,No,Yes,39.4,120,canine leptospirosis
+cat,persian,4,female,7.0,coughing,loss of appetite,nasal discharge,fever,5 days,Yes,Yes,Yes,No,Yes,No,Yes,No,Yes,39.0,130,feline asthma
+horse,percheron,5,male,680.0,lameness,swollen legs,loss of appetite,fever,5 days,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,39.4,105,equine laminitis
+cow,holstein,3,male,700.0,coughing,loss of appetite,lethargy,fever,6 days,Yes,Yes,Yes,Yes,No,Yes,Yes,No,Yes,39.2,90,bovine mastitis
+cow,guernsey,3,male,580.0,coughing,loss of appetite,lethargy,fever,4 days,Yes,Yes,Yes,Yes,No,Yes,Yes,No,Yes,39.4,85,bovine respiratory disease
+sheep,dorset,4,male,125.0,coughing,loss of appetite,lethargy,fever,5 days,Yes,Yes,No,Yes,Yes,No,No,Yes,Yes,39.3,80,scrapie
+goat,saanen,3,female,75.0,vomiting,diarrhea,lethargy,fever,5 days,Yes,Yes,Yes,No,Yes,No,Yes,Yes,Yes,39.5,90,caprine arthritis encephalitis
+pig,landrace,4,male,130.0,coughing,loss of appetite,lethargy,fever,6 days,Yes,Yes,Yes,Yes,No,Yes,No,No,Yes,39.6,100,swine flu
+sheep,cheviot,3,female,110.0,coughing,loss of appetite,lethargy,fever,4 days,Yes,Yes,No,Yes,Yes,No,No,Yes,No,39.4,80,bluetongue
+goat,boer,5,male,85.0,vomiting,diarrhea,lethargy,fever,5 days,Yes,Yes,Yes,No,Yes,No,Yes,Yes,Yes,39.6,95,goat pox
+pig,yorkshire,2,female,120.0,coughing,loss of appetite,lethargy,fever,4 days,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,39.5,105,porcine epidemic diarrhea virus
+horse,morgan,4,male,650.0,lameness,swollen legs,loss of appetite,fever,6 days,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,39.6,120,equine herpesvirus
+cow,ayrshire,3,female,700.0,coughing,loss of appetite,lethargy,fever,5 days,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,39.4,90,bovine respiratory disease
+goat,kiko,4,female,70.0,vomiting,diarrhea,lethargy,fever,5 days,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,No,39.5,90,caprine arthritis encephalitis
+pig,chester white,3,male,150.0,coughing,loss of appetite,lethargy,fever,5 days,Yes,No,Yes,Yes,No,Yes,Yes,Yes,Yes,39.7,105,swine influenza
+dog,boxer,3,female,30.0,lethargy,vomiting,loss of appetite,fever,4 days,Yes,Yes,Yes,Yes,Yes,No,Yes,No,Yes,39.3,120,canine infectious hepatitis
+cat,maine coon,5,male,8.0,coughing,loss of appetite,nasal discharge,fever,5 days,Yes,Yes,Yes,Yes,No,Yes,No,Yes,Yes,39.0,135,feline panleukopenia virus
+horse,arabian,6,female,650.0,lameness,swollen legs,loss of appetite,fever,5 days,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,39.5,110,equine metabolic syndrome
+cow,jersey,2,male,550.0,coughing,loss of appetite,lethargy,fever,4 days,Yes,Yes,Yes,No,Yes,Yes,Yes,No,Yes,39.2,95,bovine mastitis
+cow,simmental,4,female,700.0,coughing,loss of appetite,lethargy,fever,6 days,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,39.4,100,bovine respiratory disease
+sheep,suffolk,3,male,110.0,coughing,loss of appetite,lethargy,fever,5 days,Yes,Yes,Yes,Yes,No,Yes,No,Yes,No,39.3,80,bluetongue
+goat,toggenburg,2,female,70.0,vomiting,diarrhea,lethargy,fever,4 days,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,No,39.4,90,caprine arthritis encephalitis
+pig,tamworth,3,male,130.0,coughing,loss of appetite,lethargy,fever,5 days,Yes,Yes,Yes,Yes,No,Yes,No,No,Yes,39.6,105,swine influenza
+cow,dexter,2,male,500.0,coughing,loss of appetite,lethargy,fever,5 days,Yes,Yes,Yes,Yes,No,Yes,No,No,Yes,39.4,95,bovine tuberculosis
+sheep,cheviot,4,female,120.0,coughing,loss of appetite,lethargy,fever,6 days,Yes,Yes,Yes,Yes,No,Yes,Yes,No,Yes,39.4,85,scrapie
+goat,alpine,3,male,75.0,vomiting,diarrhea,lethargy,fever,5 days,Yes,Yes,Yes,No,Yes,No,Yes,Yes,No,39.5,100,caprine viral arthritis
+pig,large white,2,female,120.0,coughing,loss of appetite,lethargy,fever,5 days,Yes,Yes,Yes,Yes,No,Yes,Yes,No,Yes,39.6,110,porcine circovirus disease
+goat,nubian,4,female,80.0,vomiting,diarrhea,lethargy,fever,6 days,Yes,Yes,Yes,Yes,No,Yes,Yes,No,Yes,39.5,95,caprine respiratory disease
+pig,berkshire,5,male,145.0,coughing,loss of appetite,lethargy,fever,4 days,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Yes,39.7,110,swine fever
+sheep,dorset,5,male,150.0,coughing,loss of appetite,lethargy,fever,5 days,Yes,Yes,Yes,Yes,No,Yes,No,No,Yes,39.5,90,scrapie
+sheep,southdown,6,male,130.0,coughing,loss of appetite,lethargy,fever,5 days,Yes,Yes,Yes,Yes,No,Yes,Yes,No,Yes,39.3,80,foot-and-mouth disease
+dog,golden retriever,5,male,35.0,coughing,lethargy,loss of appetite,fever,4 days,Yes,Yes,No,Yes,No,No,No,Yes,No,39.2,110,canine parvovirus
+dog,labrador,4,male,30.0,vomiting,loss of appetite,lethargy,fever,5 days,Yes,Yes,No,Yes,No,No,No,Yes,No,39.2,100,canine parvovirus
+cat,persian,3,female,5.0,coughing,sneezing,nasal discharge,fever,4 days,Yes,Yes,No,Yes,No,No,No,Yes,No,39.1,110,feline calicivirus
+horse,arabian,5,male,450.0,lameness,loss of appetite,swollen legs,fever,7 days,Yes,No,No,Yes,Yes,Yes,No,Yes,No,39.4,110,equine infectious anemia
+horse,clydesdale,6,male,700.0,lameness,swollen legs,loss of appetite,fever,7 days,Yes,Yes,No,Yes,Yes,Yes,No,Yes,No,39.4,125,equine herpesvirus
