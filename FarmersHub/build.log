@@ -1,0 +1,224 @@
+﻿docker-compose : time="2026-03-07T19:05:37+05:30" level=warning msg="The \"GEMINI_API_KEY\" 
+variable is not set. Defaulting to a blank string."
+At line:1 char:1
++ docker-compose build > build_logs.txt 2>&1
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (time="2026-03-0... blank string.":String) [], Rem 
+   oteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+time="2026-03-07T19:05:37+05:30" level=warning msg="C:\\Users\\ayush\\Desktop\\Farm 
+Opus\\FarmersHub\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, 
+please remove it to avoid potential confusion"
+ Image farmershub-frontend Building 
+ Image farmershub-backend Building 
+ Image farmershub-anivet-backend Building 
+#1 [internal] load local bake definitions
+#1 reading from stdin 1.75kB done
+#1 DONE 0.0s
+
+#2 [backend internal] load build definition from Dockerfile
+#2 transferring dockerfile: 490B 0.0s done
+#2 DONE 0.1s
+
+#3 [anivet-backend internal] load build definition from Dockerfile
+#3 transferring dockerfile: 179B done
+#3 DONE 0.1s
+
+#4 [frontend internal] load build definition from Dockerfile
+#4 transferring dockerfile: 1.04kB done
+#4 WARN: FromAsCasing: 'as' and 'FROM' keywords' casing do not match (line 2)
+#4 DONE 0.1s
+
+#5 [frontend internal] load metadata for docker.io/library/node:18-alpine
+#5 ...
+
+#6 [frontend internal] load metadata for docker.io/library/nginx:alpine
+#6 DONE 0.9s
+
+#5 [backend internal] load metadata for docker.io/library/node:18-alpine
+#5 DONE 1.0s
+
+#7 [backend internal] load .dockerignore
+#7 transferring context: 70B done
+#7 DONE 0.0s
+
+#8 [frontend internal] load .dockerignore
+#8 transferring context: 86B done
+#8 DONE 0.1s
+
+#9 [frontend 1/6] FROM docker.io/library/node:18-alpine@sha256:8d6421d663b4c28fd3ebc498332f249011d118945588d0a35cb9bc4b8ca09d9e
+#9 DONE 0.0s
+
+#10 [anivet-backend internal] load .dockerignore
+#10 transferring context: 2B done
+#10 DONE 0.1s
+
+#11 [anivet-backend internal] load build context
+#11 ...
+
+#12 [frontend stage-1 1/3] FROM docker.io/library/nginx:alpine@sha256:1d13701a5f9f3fb01aaa88cef2344d65b6b5bf6b7d9fa4cf0dca557a8d7702ba
+#12 DONE 0.0s
+
+#13 [frontend internal] load build context
+#13 transferring context: 3.20kB done
+#13 DONE 0.0s
+
+#14 [frontend build 4/6] RUN npm install
+#14 CACHED
+
+#15 [frontend 2/6] WORKDIR /app
+#15 CACHED
+
+#16 [frontend build 3/6] COPY package*.json ./
+#16 CACHED
+
+#17 [frontend build 5/6] COPY . .
+#17 CACHED
+
+#11 [anivet-backend internal] load build context
+#11 ...
+
+#18 [backend internal] load build context
+#18 transferring context: 157.98kB 0.2s done
+#18 DONE 0.3s
+
+#19 [backend 4/6] RUN npm install
+#19 CACHED
+
+#15 [backend 2/6] WORKDIR /app
+#15 CACHED
+
+#20 [backend 3/6] COPY package*.json ./
+#20 CACHED
+
+#21 [backend 5/6] COPY . .
+#21 CACHED
+
+#22 [backend 6/6] RUN ls -la /app
+#22 CACHED
+
+#11 [anivet-backend internal] load build context
+#11 ...
+
+#23 [backend] exporting to image
+#23 exporting layers done
+#23 writing image sha256:a2f17cd20eab115d528b7362d5602061b29cfa8fd8a91f82891e8766b6953b7b 0.0s done
+#23 naming to docker.io/library/farmershub-backend done
+#23 DONE 0.0s
+
+#11 [anivet-backend internal] load build context
+#11 transferring context: 491.98kB 0.5s done
+#11 DONE 0.5s
+
+#24 [backend] resolving provenance for metadata file
+#24 DONE 0.0s
+
+#25 [frontend build 6/6] RUN npm run build
+#25 ...
+
+#26 [anivet-backend 2/5] WORKDIR /usr/src/app
+#26 CACHED
+
+#27 [anivet-backend 3/5] COPY package*.json ./
+#27 CACHED
+
+#28 [anivet-backend 4/5] RUN npm install
+#28 CACHED
+
+#29 [anivet-backend 5/5] COPY . .
+#29 CACHED
+
+#30 [anivet-backend] exporting to image
+#30 exporting layers done
+#30 writing image sha256:7449f53ada74833962372fb900e2a10fbcb67d653088b394d38f80306e696c3f done
+#30 naming to docker.io/library/farmershub-anivet-backend done
+#30 DONE 0.0s
+
+#31 [anivet-backend] resolving provenance for metadata file
+#31 DONE 0.0s
+
+#25 [frontend build 6/6] RUN npm run build
+#25 0.657 
+#25 0.657 > farmershub-frontend@0.1.0 build
+#25 0.657 > react-scripts build
+#25 0.657 
+#25 2.273 Creating an optimized production build...
+#25 19.82 Failed to compile.
+#25 19.82 
+#25 19.82 [eslint] 
+#25 19.82 src/App.js
+#25 19.82   Line 114:16:  'MyRequest' is not defined  react/jsx-no-undef
+#25 19.82 
+#25 19.82 src/Components/LivestockAIChat.jsx
+#25 19.82   Line 21:5:    'messagesEndRef' is not defined  no-undef
+#25 19.82   Line 315:21:  'messagesEndRef' is not defined  no-undef
+#25 19.82 
+#25 19.82 Search for the keywords to learn more about each error.
+#25 19.82 
+#25 19.82 
+#25 ERROR: process "/bin/sh -c npm run build" did not complete successfully: exit code: 1
+------
+ > [frontend build 6/6] RUN npm run build:
+19.82 src/App.js
+19.82   Line 114:16:  'MyRequest' is not defined  react/jsx-no-undef
+19.82 
+19.82 src/Components/LivestockAIChat.jsx
+19.82   Line 21:5:    'messagesEndRef' is not defined  no-undef
+19.82   Line 315:21:  'messagesEndRef' is not defined  no-undef
+19.82 
+19.82 Search for the keywords to learn more about each error.
+19.82 
+19.82 
+------
+<input>:1:4: invalid character NUL
+
+<input>:1:6: invalid character NUL
+
+<input>:1:8: invalid character NUL
+
+<input>:1:10: invalid character NUL
+
+<input>:1:12: invalid character NUL
+
+<input>:1:14: invalid character NUL
+
+<input>:1:16: invalid character NUL
+
+<input>:1:18: invalid character NUL
+
+<input>:1:20: invalid character NUL
+
+<input>:1:22: invalid character NUL
+
+<input>:1:24: invalid character NUL
+
+<input>:1:26: invalid character NUL
+
+<input>:1:28: invalid character NUL
+
+<input>:1:1: invalid character NUL
+
+Dockerfile:18
+
+--------------------
+
+  16 |     
+
+  17 |     COPY . .
+
+  18 | >>> RUN npm run build
+
+  19 |     
+
+  20 |     # Stage 2: Serve with Nginx
+
+--------------------
+
+target frontend: failed to solve: process "/bin/sh -c npm run build" did not complete 
+successfully: exit code: 1
+
+
+
+View build details: docker-desktop://dashboard/build/default/default/ofly1mj5efo6dqnpk2il78b5l
+

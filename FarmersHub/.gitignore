@@ -1,0 +1,7 @@
+/node_modules
+/reactapp/node_modules
+/anivet-backend/node_modules
+.env
+.env.local
+.env.development
+.env.production   

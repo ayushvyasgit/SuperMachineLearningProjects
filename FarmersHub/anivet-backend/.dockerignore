@@ -1,0 +1,11 @@
+node_modules
+npm-debug.log
+*.log
+
+# Sensitive files - API keys & DB credentials
+.env
+.env.*
+
+# Git
+.git
+.gitignore

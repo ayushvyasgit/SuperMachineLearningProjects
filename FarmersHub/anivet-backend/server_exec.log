@@ -1,0 +1,192 @@
+[dotenv@17.3.1] injecting env (3) from .env -- tip: ΓÜÖ∩╕Å  enable debug logging with { debug: true }
+
+======================================================================
+≡ƒÜÇ Starting Livestock AI Medicine Finder Server
+======================================================================
+
+≡ƒöî Connecting to MongoDB...
+Γ£à MongoDB connected! Database: livestock_ai_db
+≡ƒôè Found 20480 records in collection
+≡ƒºá Loading embedding model (Xenova/all-MiniLM-L6-v2)...
+ΓÅ│ This may take a moment on first run (downloading model)...
+Γ£à Embedding model loaded successfully
+
+======================================================================
+Γ£à Server Running Successfully!
+======================================================================
+≡ƒôì Local:        http://localhost:5000
+≡ƒôè Health Check: http://localhost:5000/health
+≡ƒôê Statistics:   http://localhost:5000/api/stats
+======================================================================
+
+≡ƒôï Available Endpoints:
+   POST /api/embed   - Generate text embeddings
+   POST /api/search  - Search for medicines
+   GET  /api/animals - Get available animals
+   GET  /api/stats   - Get database statistics
+   GET  /api/sample  - Get a sample record
+======================================================================
+
+≡ƒô¿ 2026-03-09T09:55:52.647Z - POST /api/search
+
+≡ƒöì Processing search query: "cow with high fever and coughing"
+≡ƒºá Generating embedding for query...
+Γ£à Generated embedding (384 dimensions) for text: "cow with high fever and coughing..."
+ΓÜá∩╕Å  Vector Search failed, using fallback... PlanExecutor error during aggregation :: caused by :: vector field is indexed with 768 dimensions but queried with 384
+ΓÜá∩╕Å  Using fallback similarity search...
+Γ¥î Vector Search error: MongoServerError: PlanExecutor error during aggregation :: caused by :: vector field is indexed with 768 dimensions but queried with 384
+    at Connection.sendCommand (C:\Users\ayush\Desktop\Farm Opus\FarmersHub\anivet-backend\node_modules\mongodb\lib\cmap\connection.js:306:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Connection.command (C:\Users\ayush\Desktop\Farm Opus\FarmersHub\anivet-backend\node_modules\mongodb\lib\cmap\connection.js:334:26)
+    at async Server.command (C:\Users\ayush\Desktop\Farm Opus\FarmersHub\anivet-backend\node_modules\mongodb\lib\sdam\server.js:194:29)
+    at async tryOperation (C:\Users\ayush\Desktop\Farm Opus\FarmersHub\anivet-backend\node_modules\mongodb\lib\operations\execute_operation.js:213:32)
+    at async executeOperation (C:\Users\ayush\Desktop\Farm Opus\FarmersHub\anivet-backend\node_modules\mongodb\lib\operations\execute_operation.js:78:16)
+    at async AggregationCursor._initialize (C:\Users\ayush\Desktop\Farm Opus\FarmersHub\anivet-backend\node_modules\mongodb\lib\cursor\aggregation_cursor.js:57:26)
+    at async AggregationCursor.cursorInit (C:\Users\ayush\Desktop\Farm Opus\FarmersHub\anivet-backend\node_modules\mongodb\lib\cursor\abstract_cursor.js:632:27)
+    at async AggregationCursor.fetchBatch (C:\Users\ayush\Desktop\Farm Opus\FarmersHub\anivet-backend\node_modules\mongodb\lib\cursor\abstract_cursor.js:666:13)
+    at async AggregationCursor.next (C:\Users\ayush\Desktop\Farm Opus\FarmersHub\anivet-backend\node_modules\mongodb\lib\cursor\abstract_cursor.js:342:17) {
+  errorLabelSet: Set(0) {},
+  errorResponse: {
+    ok: 0,
+    errmsg: 'PlanExecutor error during aggregation :: caused by :: vector field is indexed with 768 dimensions but queried with 384',
+    code: 8,
+    codeName: 'UnknownError',
+    '$clusterTime': {
+      clusterTime: new Timestamp({ t: 1773050153, i: 1 }),
+      signature: [Object]
+    },
+    operationTime: new Timestamp({ t: 1773050153, i: 1 })
+  },
+  ok: 0,
+  code: 8,
+  codeName: 'UnknownError',
+  '$clusterTime': {
+    clusterTime: new Timestamp({ t: 1773050153, i: 1 }),
+    signature: {
+      hash: Binary.createFromBase64('DK7J0pPAjt6W6e88l+vZS/WgAmo=', 0),
+      keyId: new Long('7557088480224870401')
+    }
+  },
+  operationTime: new Timestamp({ t: 1773050153, i: 1 })
+}
+≡ƒôè Processing 20480 records...
+Query dim: 384, First record dim: 384
+Max similarity: 0.7309, Total: 20480
+Γ£à Found 3 results above threshold 0.2
+≡ƒôè Found 3 matching medicines
+≡ƒñû Generating AI response with Gemini...
+Γ¥î Gemini AI error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (file:///C:/Users/ayush/Desktop/Farm%20Opus/FarmersHub/anivet-backend/node_modules/@google/generative-ai/dist/index.mjs:432:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async makeRequest (file:///C:/Users/ayush/Desktop/Farm%20Opus/FarmersHub/anivet-backend/node_modules/@google/generative-ai/dist/index.mjs:401:9)
+    at async generateContent (file:///C:/Users/ayush/Desktop/Farm%20Opus/FarmersHub/anivet-backend/node_modules/@google/generative-ai/dist/index.mjs:865:22)
+Γ£à Search completed successfully
+
+    at async getAIResponse (file:///C:/Users/ayush/Desktop/Farm%20Opus/FarmersHub/anivet-backend/server.js:297:20)
+    at async file:///C:/Users/ayush/Desktop/Farm%20Opus/FarmersHub/anivet-backend/server.js:362:24 {
+  status: 404,
+  statusText: 'Not Found',
+  errorDetails: undefined
+}
+≡ƒô¿ 2026-03-09T11:41:39.433Z - POST /api/search
+
+≡ƒöì Processing search query: "cow with high fever and coughing"
+≡ƒºá Generating embedding for query...
+Γ£à Generated embedding (384 dimensions) for text: "cow with high fever and coughing..."
+ΓÜá∩╕Å  Vector Search failed, using fallback... PlanExecutor error during aggregation :: caused by :: vector field is indexed with 768 dimensions but queried with 384
+Γ¥î Vector Search error: MongoServerError: PlanExecutor error during aggregation :: caused by :: vector field is indexed with 768 dimensions but queried with 384
+    at Connection.sendCommand (C:\Users\ayush\Desktop\Farm Opus\FarmersHub\anivet-backend\node_modules\mongodb\lib\cmap\connection.js:306:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Connection.command (C:\Users\ayush\Desktop\Farm Opus\FarmersHub\anivet-backend\node_modules\mongodb\lib\cmap\connection.js:334:26)
+    at async Server.command (C:\Users\ayush\Desktop\Farm Opus\FarmersHub\anivet-backend\node_modules\mongodb\lib\sdam\server.js:194:29)
+    at async tryOperation (C:\Users\ayush\Desktop\Farm Opus\FarmersHub\anivet-backend\node_modules\mongodb\lib\operations\execute_operation.js:213:32)
+    at async executeOperation (C:\Users\ayush\Desktop\Farm Opus\FarmersHub\anivet-backend\node_modules\mongodb\lib\operations\execute_operation.js:78:16)
+ΓÜá∩╕Å  Using fallback similarity search...
+    at async AggregationCursor._initialize (C:\Users\ayush\Desktop\Farm Opus\FarmersHub\anivet-backend\node_modules\mongodb\lib\cursor\aggregation_cursor.js:57:26)
+    at async AggregationCursor.cursorInit (C:\Users\ayush\Desktop\Farm Opus\FarmersHub\anivet-backend\node_modules\mongodb\lib\cursor\abstract_cursor.js:632:27)
+    at async AggregationCursor.fetchBatch (C:\Users\ayush\Desktop\Farm Opus\FarmersHub\anivet-backend\node_modules\mongodb\lib\cursor\abstract_cursor.js:666:13)
+    at async AggregationCursor.next (C:\Users\ayush\Desktop\Farm Opus\FarmersHub\anivet-backend\node_modules\mongodb\lib\cursor\abstract_cursor.js:342:17) {
+  errorLabelSet: Set(0) {},
+  errorResponse: {
+    ok: 0,
+    errmsg: 'PlanExecutor error during aggregation :: caused by :: vector field is indexed with 768 dimensions but queried with 384',
+    code: 8,
+    codeName: 'UnknownError',
+    '$clusterTime': {
+      clusterTime: new Timestamp({ t: 1773056500, i: 1 }),
+      signature: [Object]
+    },
+    operationTime: new Timestamp({ t: 1773056500, i: 1 })
+  },
+  ok: 0,
+  code: 8,
+  codeName: 'UnknownError',
+  '$clusterTime': {
+    clusterTime: new Timestamp({ t: 1773056500, i: 1 }),
+    signature: {
+      hash: Binary.createFromBase64('XJR1K9SAGLMpefeIe+xhY52Jh+A=', 0),
+      keyId: new Long('7557088480224870401')
+    }
+  },
+  operationTime: new Timestamp({ t: 1773056500, i: 1 })
+}
+≡ƒôè Processing 20480 records...
+Query dim: 384, First record dim: 384
+Max similarity: 0.7309, Total: 20480
+Γ£à Found 3 results above threshold 0.2
+≡ƒôè Found 3 matching medicines
+≡ƒñû Generating AI response with Gemini...
+Γ£à Search completed successfully
+
+Γ¥î Gemini AI error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (file:///C:/Users/ayush/Desktop/Farm%20Opus/FarmersHub/anivet-backend/node_modules/@google/generative-ai/dist/index.mjs:432:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async makeRequest (file:///C:/Users/ayush/Desktop/Farm%20Opus/FarmersHub/anivet-backend/node_modules/@google/generative-ai/dist/index.mjs:401:9)
+    at async generateContent (file:///C:/Users/ayush/Desktop/Farm%20Opus/FarmersHub/anivet-backend/node_modules/@google/generative-ai/dist/index.mjs:865:22)
+    at async getAIResponse (file:///C:/Users/ayush/Desktop/Farm%20Opus/FarmersHub/anivet-backend/server.js:297:20)
+    at async file:///C:/Users/ayush/Desktop/Farm%20Opus/FarmersHub/anivet-backend/server.js:362:24 {
+  status: 404,
+  statusText: 'Not Found',
+  errorDetails: undefined
+}
+≡ƒô¿ 2026-03-09T11:59:20.149Z - GET /health
+≡ƒô¿ 2026-03-09T11:59:27.236Z - POST /api/search
+
+≡ƒöì Processing search query: "cow with high fever and coughing"
+≡ƒºá Generating embedding for query...
+Γ£à Generated embedding (384 dimensions) for text: "cow with high fever and coughing..."
+Raw aggregation query returned 15 documents.
+Top result score from MongoDB: 0.8654487133026123
+Γ£à Vector Search found 5 results
+≡ƒôè Found 5 matching medicines
+≡ƒñû Generating AI response with Gemini...
+Γ£à Search completed successfully
+
+Γ¥î Gemini AI error: GoogleGenerativeAIFetchError: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (file:///C:/Users/ayush/Desktop/Farm%20Opus/FarmersHub/anivet-backend/node_modules/@google/generative-ai/dist/index.mjs:432:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async makeRequest (file:///C:/Users/ayush/Desktop/Farm%20Opus/FarmersHub/anivet-backend/node_modules/@google/generative-ai/dist/index.mjs:401:9)
+    at async generateContent (file:///C:/Users/ayush/Desktop/Farm%20Opus/FarmersHub/anivet-backend/node_modules/@google/generative-ai/dist/index.mjs:865:22)
+    at async getAIResponse (file:///C:/Users/ayush/Desktop/Farm%20Opus/FarmersHub/anivet-backend/server.js:297:20)
+    at async file:///C:/Users/ayush/Desktop/Farm%20Opus/FarmersHub/anivet-backend/server.js:362:24 {
+  status: 404,
+  statusText: 'Not Found',
+  errorDetails: undefined
+}
+Γ¥î Unhandled error: SyntaxError: Expected property name or '}' in JSON at position 1 (line 1 column 2)
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\ayush\Desktop\Farm Opus\FarmersHub\anivet-backend\node_modules\body-parser\lib\types\json.js:72:19)
+    at C:\Users\ayush\Desktop\Farm Opus\FarmersHub\anivet-backend\node_modules\body-parser\lib\read.js:162:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:211:14)
+    at invokeCallback (C:\Users\ayush\Desktop\Farm Opus\FarmersHub\anivet-backend\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\ayush\Desktop\Farm Opus\FarmersHub\anivet-backend\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\ayush\Desktop\Farm Opus\FarmersHub\anivet-backend\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:518:28)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  expose: true,
+  statusCode: 400,
+  status: 400,
+  body: '{\\',
+  type: 'entity.parse.failed'
+}

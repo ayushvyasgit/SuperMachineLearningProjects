@@ -1,0 +1,64 @@
+services:
+  # Backend Service
+  backend:
+    build: 
+      context: ./nodeapp
+    container_name: farmershub-backend
+    ports:
+      - "8081:8080"
+    environment:
+      - PORT=8080
+      - MONGO_URI=mongodb://mongo:27017/farmershub
+    depends_on:
+      - mongo
+    networks:
+      - app-network
+
+  # AniVet Backend Service
+  anivet-backend:
+    build:
+      context: ./anivet-backend
+    container_name: farmershub-anivet-backend
+    ports:
+      - "5000:5000"
+    environment:
+      - PORT=5000
+      - MONGO_URI=mongodb+srv://ayushvyas99199:qegXvJWDh8bkgI1Q@a1.mihxsrj.mongodb.net/livestock_ai_db
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+    networks:
+      - app-network
+
+  # Frontend Service
+  frontend:
+    build: 
+      context: ./reactapp
+      args:
+        # Pass the backend URL. Keep localhost for local docker environments, 
+        # or override this in production via a .env file or command line.
+        - REACT_APP_API_BASE_URL=http://localhost:8081
+        - REACT_APP_ANIVET_API_URL=http://localhost:5000
+    container_name: farmershub-frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+    networks:
+      - app-network
+
+  # Database Service
+  mongo:
+    image: mongo:latest
+    container_name: farmershub-mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+    networks:
+      - app-network
+
+volumes:
+  mongo-data:
+
+networks:
+  app-network:
+    driver: bridge
